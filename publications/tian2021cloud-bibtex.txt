@@ -1,0 +1,8 @@
+@inproceedings{tian2021cloud,
+  author={Shanquan Tian and Ilias Giechaskiel and Wenjie Xiong and Jakub Szefer},
+  title={Cloud FPGA Cartography using PCIe Contention},
+  booktitle={Proceedings of the International Symposium on Field-Programmable Custom Computing Machines},
+  series={FCCM},
+  year={2021},
+  month={May},
+}

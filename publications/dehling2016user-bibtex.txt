@@ -1,0 +1,9 @@
+@inproceedings{dehling2016user,
+	author = {Tobias Dehling and Manuel Schmidt-Kraepelin and Muhammed Demircan and Jakub Szefer and Ali Sunyaev},
+	title = {User Archetypes for Effective Information Privacy Communication},
+	booktitle = {Proceedings of Workshop on Information Security and Privacy},
+	series = {WISP},
+	year = {2016},
+	month = {December},
+}
+

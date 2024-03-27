@@ -1,0 +1,9 @@
+@inproceedings{matyunin2016covert,
+	author = {Nikolay Matyunin and Jakub Szefer and Sebastian Biedermann and Stefan Katzenbeisser},
+	title = {Covert Channels Using Mobile Device's Magnetic Field Sensors},
+	booktitle = {Proceedings of the Asia and South Pacific Design Automation Conference},
+	series = {ASP-DAC},
+	year = {2016},
+	month = {January},
+}
+

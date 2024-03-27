@@ -1,0 +1,6 @@
+@article{xiong2021leaking,
+  author={Wenjie Xiong and Stefan Katzenbeisser and Jakub Szefer},
+  title={Leaking Information Through Cache LRU States in Commercial Processors and Secure Caches},
+  journal={IEEE Transactions on Computers},
+  year={2021},
+}

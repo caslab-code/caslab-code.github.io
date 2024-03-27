@@ -1,0 +1,8 @@
+@inproceedings{szefer2012physical,
+  title={Physical attack protection with human-secure virtualization in data centers},
+  author={Szefer, Jakub and Jamkhedkar, Pramod and Chen, Yu-Yuan and Lee, Ruby B},
+  booktitle={IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN 2012)},
+  pages={1--6},
+  year={2012},
+  organization={IEEE}
+}

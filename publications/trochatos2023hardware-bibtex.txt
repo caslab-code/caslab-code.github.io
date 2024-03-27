@@ -1,0 +1,7 @@
+@misc{2308.03897,
+  author={Theodoros Trochatos and Chuanqi Xu and Sanjay Deshpande and Yao Lu and Yongshan Ding and Jakub Szefer},
+  title={Hardware Architecture for a Quantum Computer Trusted Execution Environment},
+  year={2023},
+  month={August},
+  eprint={arXiv:2308.03897},
+}

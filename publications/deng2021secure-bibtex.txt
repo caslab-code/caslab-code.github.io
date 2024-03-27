@@ -1,0 +1,7 @@
+@inproceedings{deng2021secure,
+  author={Shuwen Deng and Wenjie Xiong and Jakub Szefer},
+  title={Secure TLBs},
+  booktitle={Top Picks in Hardware and Embedded Security},
+  year={2021},
+  month={November},
+}

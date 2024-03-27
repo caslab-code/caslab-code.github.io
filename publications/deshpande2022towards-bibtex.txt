@@ -1,0 +1,8 @@
+@inproceedings{deshpande2022towards,
+  author = {Sanjay Deshpande and Chuanqi Xu and Theodoros Trochatos and Yongshan Ding and Jakub Szefer},
+  title = {Towards an Antivirus for Quantum Computers},
+  booktitle={Proceedings of the International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  year={2022},
+  month={June},
+}

@@ -1,0 +1,8 @@
+@inproceedings{burgiel2021characterization-bibtex,
+  author={Julia Burgiel and Daniel Esguerra and Ilias Giechaskiel and Shanquan Tian and Jakub Szefer},
+  title={Characterization of IOBUF-based Ring Oscillators},
+  booktitle={Proceedings of the International Conference on Field-Programmable Technology},
+  series={FPT},
+  year={2021},
+  month={December},
+}

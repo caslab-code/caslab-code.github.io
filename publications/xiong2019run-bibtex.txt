@@ -1,0 +1,8 @@
+@inproceedings{xiong2019run,
+	author = {Wenjie Xiong and Andr\'{e} Schaller and Nikolaos A. Anagnostopoulos and Muhammad Umair Saleem and Sebastian Gabmeyer and Stefan Katzenbeisser and Jakub Szefer},
+	title = {Run-time Accessible DRAM PUFs in Commodity Devices},
+	booktitle = {Top Picks in Hardware and Embedded Security},
+	year = {2019},
+	month = {November},
+}
+

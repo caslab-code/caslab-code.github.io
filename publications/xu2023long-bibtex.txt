@@ -1,0 +1,8 @@
+@inproceedings{xu2023long,
+  author={Chuanqi Xu and Jakub Szefer},
+  title={Long-Term Analysis of the Dependability of Cloud-based NISQ Quantum Computers},
+  booktitle={International Conference on Availability, Reliability and Security},
+  series={ARES},
+  month={August},
+  year={2023}
+}

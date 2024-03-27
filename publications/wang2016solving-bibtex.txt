@@ -1,0 +1,9 @@
+@inproceedings{wang2016solving,
+	author = {Wen Wang and Jakub Szefer and Ruben Niederhagen},
+	title = {Solving Large Systems of Linear Equations over GF(2) on FPGAs},
+	booktitle = {Proceedings of the International Conference on Reconfigurable Computing and FPGAs},
+	series = {ReConFig},
+	year = {2016},
+	month = {November},
+}
+

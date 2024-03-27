@@ -1,0 +1,8 @@
+@inproceedings{szefer2011rapid,
+  title={Rapid single-chip secure processor prototyping on the opensparc fpga platform},
+  author={Szefer, Jakub M and Zhang, Wei and Chen, Yu-Yuan and Champagne, David and Chan, King and Li, Will XY and Cheung, Ray CC and Lee, Ruby B},
+  booktitle={2011 22nd IEEE International Symposium on Rapid System Prototyping},
+  pages={38--44},
+  year={2011},
+  organization={IEEE}
+}

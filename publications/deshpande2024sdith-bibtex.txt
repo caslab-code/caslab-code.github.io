@@ -1,0 +1,8 @@
+@inproceedings{deshpande2024sdith,
+  author={Sanjay Deshpande and James Howe and Jakub Szefer and Dongze Yue},
+  title={SDitH in Hardware},
+  booktitle={Transactions on Cryptographic Hardware and Embedded Systems},
+  series={TCHES},
+  year={2024},
+  month={September},
+}

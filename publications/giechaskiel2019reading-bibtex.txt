@@ -1,0 +1,8 @@
+@inproceedings{giechaskiel2019measuring,
+  author={Ilias Giechaskiel and Kasper Rasmussen and Jakub Szefer},
+  title={Reading Between the Dies: Cross-SLR Covert Channels on Multi-Tenant Cloud FPGAs},
+  booktitle={Proceedings of the International Conference on Computer Design},
+  series={ICCD},
+  year={2019},
+  month={November},
+}

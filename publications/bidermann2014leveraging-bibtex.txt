@@ -1,0 +1,9 @@
+@inproceedings {bidermann2014leveraging,
+	author = {Sebastian Biedermann and Stefan Katzenbeisser and Jakub Szefer},
+	title = {Leveraging Virtual Machine Introspection for Hot-Hardening of Arbitrary Cloud-User Applications},
+	booktitle = {Proceedings of the 6th USENIX Workshop on Hot Topics in Cloud Computing},
+	series = {HotCloud},
+	year = {2014},
+	month = {June},
+}
+

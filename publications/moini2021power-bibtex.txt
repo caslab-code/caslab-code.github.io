@@ -1,0 +1,6 @@
+@article{moini2021power,
+  author={Shayan Moini and Shanquan Tian and Daniel Holcomb and Jakub Szefer and Russell Tessier},
+  title={Power Side-Channel Attacks onBNN Accelerators in Remote FPGAs},
+  journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems},
+  year={2021},
+}

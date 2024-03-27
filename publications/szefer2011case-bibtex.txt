@@ -1,0 +1,8 @@
+@inproceedings{szefer2011case,
+  title={A case for hardware protection of guest vms from compromised hypervisors in cloud computing},
+  author={Szefer, Jakub and Lee, Ruby B},
+  booktitle={2011 31st International Conference on Distributed Computing Systems Workshops},
+  pages={248--252},
+  year={2011},
+  organization={IEEE}
+}

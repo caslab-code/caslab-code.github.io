@@ -1,0 +1,8 @@
+@inproceedings{szefer2013bitdeposit,
+  title={Bitdeposit: Deterring attacks and abuses of cloud computing services through economic measures},
+  author={Szefer, Jakub and Lee, Ruby B},
+  booktitle={2013 13th IEEE/ACM International Symposium on Cluster, Cloud, and Grid Computing},
+  pages={630--635},
+  year={2013},
+  organization={IEEE}
+}

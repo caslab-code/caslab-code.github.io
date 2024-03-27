@@ -1,0 +1,6 @@
+@misc{erata2022etap,
+Author = {Ferhat Erata and Arda Goknil and Eren Yıldız and Kasım Sinan Yıldırım and Ruzica Piskac and Jakub Szefer and Gökçin Sezgin},
+Title = {ETAP: Energy-aware Timing Analysis of Intermittent Programs},
+Year = {2022},
+Eprint = {arXiv:2201.11433},
+}

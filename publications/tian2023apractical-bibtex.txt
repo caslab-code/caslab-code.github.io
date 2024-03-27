@@ -1,0 +1,8 @@
+@inproceedings{tian2021remote,
+  author={Shanquan Tian and Shayan Moini and Daniel Holcomb and Russell Tessier and Jakub Szefer},
+  title={A Practical Remote Power Attack on Machine Learning Accelerators in Cloud FPGAs},
+  booktitle={Proceedings of the Design, Automation and Test in Europe Conference},
+  series={DATE},
+  year={2023},
+  month={April},
+}

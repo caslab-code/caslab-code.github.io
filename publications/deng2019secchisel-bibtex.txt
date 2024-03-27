@@ -1,0 +1,8 @@
+@proceedings{deng2019secchisel,
+  author = {Shuwen Deng and Do\u{g}uhan G\"{u}m\"{u}\c{s}o\u{g}lu and Wenjie Xiong and Y. Serhan Gener and Onur Demir and Jakub Szefer},
+  title = {SecChisel Framework for Security Verification of Secure Processor  Architectures},
+  booktitle = {Proceedings of the Workshop on Hardware and Architectural Support for Security and Privacy},
+  series = {HASP},
+  year = {2019},
+  month = {June},
+}

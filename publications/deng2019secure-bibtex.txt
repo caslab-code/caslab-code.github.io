@@ -1,0 +1,8 @@
+@inproceedings{deng2019secure,
+  author={Shuwen Deng and Wenjie Xiong and Jakub Szefer},
+  title={Secure TLBs},
+  booktitle={Proceedings of the International Symposium on Computer Architecture},
+  series={ISCA},
+  year={2019},
+  month={June},
+}

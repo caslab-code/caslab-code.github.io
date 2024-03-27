@@ -1,0 +1,8 @@
+@inproceedings{erata2023towards,
+  author={Ferhat Erata and Ruzica Piskac and Victor Mateu and Jakub Szefer},
+  title={Towards Automated Detection of Single-Trace Side-Channel Vulnerabilities in Constant-Time Cryptographic Code},
+  booktitle={Proceedings of the European Symposium on Security and Privacy},
+  series={EuroS&P},
+  year={2023},
+  month={July},
+}

@@ -1,0 +1,8 @@
+@inproceedings{xiong2019dynamic,
+  author={Wenjie Xiong and Andr\'{e} Schaller and Stefan Katzenbeisser and Jakub Szefer},
+  title={Dynamic Physically Unclonable Functions},
+  booktitle={Proceedings of the Great Lakes Symposium on VLSI},
+  series={GLSVLSI},
+  year={2019},
+  month={May},
+}

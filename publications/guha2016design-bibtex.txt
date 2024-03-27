@@ -1,0 +1,9 @@
+@inproceedings{guha2016design,
+	author = {Sumedh Guha and Wen Wang and Shafeeq Ibraheem and Mahesh Balakrishnan and Jakub Szefer},
+	title = {Design and Implementation of Open-Source SATA III Core for Stratix V FPGAs},
+	booktitle = {Proceedings of the xiInternational Conference on Field-Programmable Technology},
+	series = {FPT},
+	year = {2016},
+	month = {December},
+}
+

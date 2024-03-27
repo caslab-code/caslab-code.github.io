@@ -1,0 +1,8 @@
+@inproceedings{tian2019temporal,
+  author={Shanquan Tian and Jakub Szefer},
+  title={Temporal Thermal Covert Channels in Cloud FPGAs},
+  booktitle={Proceedings of the International Symposium on Field-Programmable Gate Arrays},
+  series={FPGA},
+  year={2019},
+  month={February},
+}

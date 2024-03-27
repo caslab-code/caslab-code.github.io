@@ -1,0 +1,10 @@
+@article{szefer2018principles,
+  title={Principles of Secure Processor Architecture Design},
+  author={Szefer, Jakub},
+  journal={Synthesis Lectures on Computer Architecture},
+  volume={13},
+  number={3},
+  pages={1--173},
+  year={2018},
+  publisher={Morgan \& Claypool Publishers}
+}

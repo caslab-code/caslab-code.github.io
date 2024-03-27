@@ -1,0 +1,10 @@
+@inproceedings{wang2018post,
+  author={Wang, Wen and Szefer, Jakub and Niederhagen, Ruben},
+  title={Post-Quantum Cryptography on FPGAs: The Niederreiter Cryptosystem},
+  booktitle={Proceedings of the 2018 on Great Lakes Symposium on VLSI},
+  series={GLSVLSI},
+  year={2018},
+  month={May},
+  url={https://dl.acm.org/citation.cfm?id=3194617},
+}
+

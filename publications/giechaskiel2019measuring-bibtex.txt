@@ -1,0 +1,8 @@
+@inproceedings{giechaskiel2019measuring,
+  author={Ilias Giechaskiel and Kasper Rasmussen and Jakub Szefer},
+  title={Measuring Long Wire Leakage with Ring Oscillators in Cloud FPGAs},
+  booktitle={Proceedings of the International Conference on Field-Programmable Logic and Applications},
+  series={FPL},
+  year={2019},
+  month={September},
+}

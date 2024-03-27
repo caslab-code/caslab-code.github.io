@@ -1,0 +1,8 @@
+@inproceedings{deng2021new,
+  author={Shuwen Deng and Jakub Szefer},
+  title={New Predictor-Based Attacks in Processors},
+  booktitle={Proceedings of the Design Automation Conference},
+  series={DAC},
+  month={December},
+  year={2021}
+}

@@ -1,0 +1,8 @@
+@misc{jeuk2014towards,
+	author = {Sebastian Jeuk and Jakub Szefer and Shi Zhou},
+	title = {Towards Cloud, Service and Tenant Classification For Cloud Computing},
+	booktitle = {Workshop on Assured Cloud Computing},
+	year = {2014},
+	month = {May},
+}
+

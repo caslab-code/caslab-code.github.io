@@ -1,0 +1,8 @@
+@inproceedings{szefer2011eliminating,
+  title={Eliminating the hypervisor attack surface for a more secure cloud},
+  author={Szefer, Jakub and Keller, Eric and Lee, Ruby B and Rexford, Jennifer},
+  booktitle={Proceedings of the 18th ACM conference on Computer and communications security},
+  pages={401--412},
+  year={2011},
+  organization={ACM}
+}

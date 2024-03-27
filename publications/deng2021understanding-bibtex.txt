@@ -1,0 +1,6 @@
+@article{deng2021understanding,
+  author={Shuwen Deng and Wenjie Xiong and Jakub Szefer},
+  title={Understanding Insecurity of Processor Caches due to Cache Timing-Based Vulnerabilities},
+  journal={IEEE Security & Privacy},
+  year={2021},
+}

@@ -1,0 +1,9 @@
+@inproceedings {biedermann2014systemwall,
+	author = {Sebastian Biedermann and Jakub Szefer},
+	title = {SystemWall: An Isolated Firewall using Hardware-based Memory Introspection},
+	booktitle = {Proceedings of the International Security Conference},
+	series = {ISC},
+	year = {2014},
+	month = {October},
+}
+

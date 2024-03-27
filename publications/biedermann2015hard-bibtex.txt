@@ -1,0 +1,8 @@
+@inproceedings {biedermann2015hard,
+	author = {Sebastian Biedermann and Stefan Katzenbeisser and Jakub Szefer},
+	title = {Hard Drive Side-Channel Attacks using Smartphone Magnetic Field Sensors},
+	booktitle = {Proceedings of the Financial Cryptography and Data Security Conference},
+	series = {FC},
+	year = {2015},
+	month = {January},
+}

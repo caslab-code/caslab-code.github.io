@@ -1,0 +1,6 @@
+@article{giechaskiel2022crossvm,
+  author={Ilias Giechaskiel and Shanquan Tian and Jakub Szefer},
+  title={Cross-VM Covert- and Side-Channel Attacks in Cloud FPGAs},
+  journal={ACM Transactions on Reconfigurable Technology and Systems},
+  year={2022},
+}

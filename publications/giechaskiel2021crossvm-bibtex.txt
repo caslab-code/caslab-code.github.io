@@ -1,0 +1,8 @@
+@inproceedings{giechaskiel2021crossvm,
+  author={Ilias Giechaskiel and Shanquan Tian and Jakub Szefer},
+  title={Cross-VM Information Leaks in FPGA-Accelerated Cloud Environments},
+  booktitle={Proceedings of the International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  year={2021},
+  month={December},
+}

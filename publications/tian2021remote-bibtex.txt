@@ -1,0 +1,8 @@
+@inproceedings{tian2021remote,
+  author={Shanquan Tian and Shayan Moini and Adam Wolnikowski and Daniel Holcomb and Russell Tessier and Jakub Szefer},
+  title={Remote Power Attacks on the Versatile Tensor Accelerator in Multi-Tenant FPGAs},
+  booktitle={Proceedings of the International Symposium on Field-Programmable Custom Computing Machines},
+  series={FCCM},
+  year={2021},
+  month={May},
+}

@@ -1,0 +1,12 @@
+@article{deng2019analysis,
+  author={Deng, Shuwen and Xiong, Wenjie and Szefer, Jakub},
+  title={Analysis of Secure Caches Using a Three-Step Model for Timing-Based Attacks},
+  journal={Journal of Hardware and Systems Security},
+  year={2019},
+  month={December},
+  volume={3},
+  number={4},
+  pages={397--425},
+  doi={10.1007/s41635-019-00075-9},
+  url={https://doi.org/10.1007/s41635-019-00075-9}
+}

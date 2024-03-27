@@ -1,0 +1,10 @@
+@article{deng2021evaluation,
+  author={Shuwen Deng and Nikolay Matyunin and Wenjie Xiong and Stefan Katzenbeisser and Jakub Szefer},
+  title={Evaluation of Cache Attacks on Arm Processors and Secure Caches},
+  journal={IEEE Transactions on Computers},
+  volume={},
+  number={},
+  pages={1-1},
+  year={2021},
+  doi={10.1109/TC.2021.3126150}
+}

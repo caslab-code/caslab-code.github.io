@@ -1,0 +1,9 @@
+@inproceedings{szefer2014towards,
+	author = {Szefer, Jakub and Biedermann, Sebastian},
+	title = {Towards Fast Hardware Memory Integrity Checking with Skewed Merkle Trees},
+	booktitle = {Proceedings of the Third Workshop on Hardware and Architectural Support for Security and Privacy},
+	series = {HASP},
+	year = {2014},
+	month = {June},
+}
+

@@ -1,0 +1,8 @@
+@inproceedings{morris2021deep,
+  author={Jalil Morris and Obi Nnorom Jr. and Anisul Abedin and Ferhat Erata and Jakub Szefer},
+  title={Deep Freezing Attacks on Capacitors and Electronic Circuits},
+  booktitle={Proceedings of the International Conference on Security, Privacy and Applied Cryptographic Engineering},
+  series={SPACE},
+  year={2021},
+  month={December},
+}

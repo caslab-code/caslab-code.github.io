@@ -1,0 +1,8 @@
+@inproceedings{mi2022securing,
+  author={Allen Mi and Shuwen Deng and Jakub Szefer},
+  title={Securing Reset Operations in NISQ Quantum Computers},
+  booktitle={Proceedings of the Conference on Computer and Communications Security},
+  series={CCS},
+  year={2022},
+  month={November},
+}

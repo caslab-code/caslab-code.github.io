@@ -1,0 +1,9 @@
+@inproceedings{keller2010nohype,
+  author = {Keller, Eric and Szefer, Jakub and Rexford, Jennifer and Lee, Ruby B.},
+  title = {NoHype: Virtualized Cloud Infrastructure Without the Virtualization},
+  booktitle = {Proceedings of the International Symposium on Computer Architecture},
+  series = {ISCA},
+  year = {2010},
+  pages = {350--361},
+  numpages = {12},
+} 

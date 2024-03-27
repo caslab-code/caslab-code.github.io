@@ -1,0 +1,8 @@
+@inproceedings{deshpande2023design,
+  author = {Sanjay Deshpande and Chuanqi Xu and Theodoros Trochatos and Hanrui Wang and Ferhat Erata and Song Han and Yongshan Ding and Jakub Szefer},
+  title = {Design of Quantum Computer Antivirus},
+  booktitle={Proceedings of the International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  year={2023},
+  month={May},
+}

@@ -1,0 +1,8 @@
+@inproceedings{xiong2020software,
+	author = {Wenjie Xiong and Andr\'{e} Schaller and Stefan Katzenbeisser and Jakub Szefer},
+	title = {Software Protection using Dynamic PUFs},
+	booktitle = {IEEE Transactions On Information Forensics And Security},
+	series = {TIFS},
+	year = {2019},
+	month = {November},
+}

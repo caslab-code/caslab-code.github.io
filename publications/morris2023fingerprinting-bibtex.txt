@@ -1,0 +1,8 @@
+@inproceedings{morris2023fingerprinting,
+  author={Jalil Morris and Anisul Abedin and Chuanqi Xu and Jakub Szefer},
+  title={Fingerprinting Quantum Computer Equipment},
+  booktitle={Proceedings of the Great Lakes Symposium on VLSI},
+  series={GLSVLSI},
+  year={2023},
+  month={June},
+}

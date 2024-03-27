@@ -1,0 +1,8 @@
+@misc{matyunin2019magneticspy,
+  author = {Nikolay Matyunin and Yujue Wang and Tolga Arul and Jakub Szefer and Stefan Katzenbeisser},
+  title = {MagneticSpy: Exploiting Magnetometer in Mobile Devices for Website and Application Fingerprinting},
+  booktitle = {Proceedings of the Workshop on Privacy in the Electronic Society},
+  series = {WPES},
+  year = {2019},
+  month = {November},
+}

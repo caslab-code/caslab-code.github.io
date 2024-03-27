@@ -1,0 +1,8 @@
+@inproceedings{durand2021ultra,
+  author={Jonathon Durand and Anisul Abedin and Jakub Szefer},
+  title={Ultra Freezing Attacks and Clock Glitching of Clock Oscillator Circuits},
+  booktitle={Proceedings of the Asian Hardware Oriented Security and Trust Symposium},
+  series={AsianHOST},
+  year={2021},
+  month={December},
+}

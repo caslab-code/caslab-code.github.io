@@ -1,0 +1,9 @@
+@inproceedings{szefer2014cyber,
+	author = {Szefer, Jakub and Jamkhedkar, Pramod and Perez-Botero, Diego and Lee, Ruby B.},
+	title = {Cyber Defenses for Physical Attacks and Insider Threats in Cloud Computing},
+	booktitle = {Proceedings of the 9th ACM Symposium on Information, Computer and Communications Security},
+	series = {AsiaCCS},
+	year = {2014},
+	month = {June},
+}
+

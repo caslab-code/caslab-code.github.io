@@ -1,0 +1,10 @@
+@article{michie2007interferometric,
+  title={Interferometric noise characterization of a 2-D time-spreading wavelength-hopping OCDMA network using FBG encoding and decoding},
+  author={Craig Michie and Ivan Andonovic and R. Atkinson and Yanhua Deng and Jakub Szefer and Camille-Sophie Bres and Yue Kai Huang and Ivan Glesk and Paul Prucnal and Kensuke Sasaki and Gyaneshwar Gupta},
+  journal={Journal of Optical Networking},
+  volume={6},
+  number={6},
+  pages={663--676},
+  year={2007},
+  publisher={Optical Society of America}
+}

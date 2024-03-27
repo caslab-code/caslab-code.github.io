@@ -1,0 +1,8 @@
+@inproceedings{wang2017fpgabased,
+	author = {Wen Wang and Jakub Szefer and Ruben Niederhagen},
+	title = {FPGA-based Key Generator for the Niederreiter Cryptosystem using Binary Goppa Codes},
+	booktitle = {Proceedings of the Conference on Cryptographic Hardware and Embedded Systems},
+	series = {CHES},
+	year = {2017},
+	month = {September},
+}

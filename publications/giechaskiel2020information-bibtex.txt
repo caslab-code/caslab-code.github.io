@@ -1,0 +1,8 @@
+@inproceedings{giechaskiel2020information,
+  author={Ilias Giechaskiel and Jakub Szefer},
+  title={Information Leakage from FPGA Routing and Logic Elements},
+  booktitle={Proceedings of the International Conference on Computer-Aided Design},
+  series={ICCAD},
+  year={2020},
+  month={November},
+}

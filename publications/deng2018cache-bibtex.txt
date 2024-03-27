@@ -1,0 +1,9 @@
+@inproceedings{deng2018cache,
+  author={Deng, Shuwen and Xiong, Wenjie and Szefer, Jakub},
+  title={Cache Timing Side-Channel Vulnerability Checking with Computation Tree Logic},
+  booktitle={Proceedings of the 7th International Workshop on Hardware and Architectural Support for Security and Privacy},
+  series={HASP},
+  year={2018},
+  month={June},
+  url={https://dl.acm.org/citation.cfm?id=3214294},
+}

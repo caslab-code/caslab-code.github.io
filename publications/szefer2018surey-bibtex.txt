@@ -1,0 +1,10 @@
+@article{szefer2018survey,
+  author={Szefer, Jakub},
+  title={Survey of Microarchitectural Side and Covert Channels, Attacks, and Defenses},
+  journal={Journal of Hardware and Systems Security},
+  year={2019},
+  month={Sept.},
+  volume={3},
+  number={3},
+  pages={219--234},
+}

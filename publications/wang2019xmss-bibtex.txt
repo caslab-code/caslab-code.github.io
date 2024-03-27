@@ -1,0 +1,8 @@
+@inproceedings{wang2019xmss,
+  author = {Wen Wang and Bernhard Jungk and Julian W{\"a}lde and Shuwen Deng and Naina Gupta and Jakub Szefer and Ruben Niederhagen },
+  title = {XMSS and Embedded Systems: XMSS Hardware Accelerators for RISC-V},
+  booktitle={Proceedings of the Selected Areas in Cryptography},
+  series={SAC},
+  year={2019},
+  month={August},
+}

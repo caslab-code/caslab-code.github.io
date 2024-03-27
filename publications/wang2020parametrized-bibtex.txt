@@ -1,0 +1,8 @@
+@inproceedings{wang2020parametrized,
+  author = {Wen Wang and Shanquan Tian and Bernhard Jungk and Nina Bindel and Patrick Longa and Jakub Szefer},
+  title = {Parameterized Hardware Accelerators for Lattice-Based Cryptography and Their Application to the HW/SW Co-Design of qTESLA},
+  booktitle={Proceedings of the Conference on Cryptographic Hardware and Embedded Systems},
+  series={CHES},
+  year={2020},
+  month={September},
+}

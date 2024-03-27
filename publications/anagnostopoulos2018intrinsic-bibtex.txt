@@ -1,0 +1,10 @@
+@article{anagnostopoulos2018intrinsic,
+  author={Anagnostopoulos, Nikolaos  Athanasios and Arul, Tolga and Fan, Yufan and Hatzfeld, Christian and Schaller, Andr\'{e} and Xiong, Wenjie and Jain, Manishkumar and Saleem, Muhammad  Umair and Lotichius, Jan and Gabmeyer, Sebastian and Szefer, Jakub and Katzenbeisser, Stefan},
+  title={Intrinsic Run-Time Row Hammer PUFs: Leveraging the Row Hammer Effect for Run-Time Cryptography and Improved Security},
+  journal={Cryptography},
+  volume={2},
+  number={3},
+  year={2018},
+  month={June},
+  url={http://www.mdpi.com/2410-387X/2/3/13},
+}

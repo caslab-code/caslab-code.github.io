@@ -1,0 +1,8 @@
+@inproceedings{tian2020fingerprinting,
+  author={Shanquan Tian and Wenjie Xiong and Ilias Giechaskiel and Kasper Rasmussen and Jakub Szefer},
+  title={Fingerprinting Cloud FPGA Infrastructures},
+  booktitle={Proceedings of the International Symposium on Field-Programmable Gate Arrays},
+  series={FPGA},
+  year={2020},
+  month={February},
+}

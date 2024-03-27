@@ -1,0 +1,8 @@
+@inproceedings{chen2019thermal,
+  author={Shuai Chen and Wenjie Xiong and Yehan Xu and Bing Li and Jakub Szefer},
+  title={Thermal Covert Channels Leveraging Package-On-Package DRAM},
+  booktitle={Proceedings of the International Conference on Trust, Security and Privacy in Computing and Communications},
+  series={TrustCom},
+  year={2019},
+  month={August},
+}

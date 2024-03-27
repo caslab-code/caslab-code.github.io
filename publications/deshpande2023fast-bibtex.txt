@@ -1,0 +1,8 @@
+@inproceedings{deshpande2023fast,
+  author={Sanjay Deshpande and Chuanqi Xu and Mamuri Nawan and Kashif Nawaz and Jakub Szefer},
+  title={Fast and Efficient Hardware Implementation of HQC},
+  booktitle={Proceedings of the Selected Areas in Cryptography},
+  series={SAC},
+  year={2023},
+  month={August},
+}

@@ -1,0 +1,8 @@
+@inproceedings{zhang2012security,
+  title={Security verification of hardware-enabled attestation protocols},
+  author={Zhang, Tianwei and Szefer, Jakub and Lee, Ruby B},
+  booktitle={2012 45th Annual IEEE/ACM International Symposium on Microarchitecture Workshops},
+  pages={47--54},
+  year={2012},
+  organization={IEEE}
+}

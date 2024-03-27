@@ -1,0 +1,8 @@
+@inproceedings{ho2009tuning,
+  title={Tuning instruction customisation for reconfigurable system-on-chip},
+  author={Ho, Chun Hok and Luk, Wayne and Szefer, Jakub M and Lee, Ruby B},
+  booktitle={2009 IEEE International SOC Conference (SOCC)},
+  pages={61--64},
+  year={2009},
+  organization={IEEE}
+}

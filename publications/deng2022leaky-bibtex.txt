@@ -1,0 +1,8 @@
+@inproceedings{deng2022leaky,
+  author={Shuwen Deng and Bowen Huang and Jakub Szefer},
+  title={Leaky Frontends: Security Vulnerabilities in Processor Frontends},
+  booktitle={Proceedings of the International Symposium on High-Performance Computer Architecture},
+  series={HPCA},
+  year={2022},
+  month={April},
+}

@@ -1,0 +1,8 @@
+@inproceedings{mohan2020asic,
+  author = {Prashanth Mohan and Wen Wang and Bernhard Jungk and Ruben Niederhagen and Jakub Szefer and Ken Mai},
+  title = {ASIC Accelerator in 28 nm for the Post-Quantum Digital Signature Scheme XMSS},
+  booktitle = {Proceedings of the International Conference on Computer Design},
+  series = {ICCD},
+  year = {2020},
+  month = {October},
+}

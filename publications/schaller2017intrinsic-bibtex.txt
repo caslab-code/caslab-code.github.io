@@ -1,0 +1,9 @@
+@inproceedings{schaller2017intrinsic,
+	author = {Andr\'{e} Schaller and Wenjie Xiong and Muhammad Umair Salee and Nikolaos A. Anagnostopoulos and Stefan Katzenbeisser and Jakub Szefer},
+	title = {Intrinsic Rowhammer PUFs: Leveraging the Rowhammer Effect for Improved Security},
+	booktitle = {Proceedings of the International Symposium on Hardware Oriented Security and Trust},
+	series = {HOST},
+	year = {2017},
+	month = {May},
+}
+

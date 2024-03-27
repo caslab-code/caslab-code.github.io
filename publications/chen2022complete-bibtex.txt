@@ -1,0 +1,8 @@
+@article{chen2022complete,
+  title={Complete and Improved FPGA Implementation of Classic McEliece},
+  author={Po-Jen Chen and Tung Chou and Sanjay Deshpande and Norman Lahr and Ruben Niederhagen and Jakub Szefer and Wen Wang},
+  journal={IACR Transactions on Cryptographic Hardware and Embedded Systems},
+  volume={2022},
+  number={3},
+  year={2022}
+}

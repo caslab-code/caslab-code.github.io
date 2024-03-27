@@ -1,0 +1,8 @@
+@inproceedings{erata2024quantum,
+  author={Ferhat Erata and Chuanqi Xu and Ruzica Piskac and Jakub Szefer},
+  title={Quantum Circuit Reconstruction from Power Side-Channel Attacks on Quantum Computer Controllers},
+  booktitle={Transactions on Cryptographic Hardware and Embedded Systems},
+  series={TCHES},
+  year={2024},
+  month={September},
+}

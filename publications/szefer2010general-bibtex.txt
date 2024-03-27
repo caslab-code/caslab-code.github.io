@@ -1,0 +1,8 @@
+@inproceedings{szefer2010general,
+  title={General-purpose FPGA platform for efficient encryption and hashing},
+  author={Szefer, Jakub and Chen, Yu-Yuan and Lee, Ruby B},
+  booktitle={ASAP 2010-21st IEEE International Conference on Application-specific Systems, Architectures and Processors},
+  pages={309--312},
+  year={2010},
+  organization={IEEE}
+}

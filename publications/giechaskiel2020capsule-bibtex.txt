@@ -1,0 +1,8 @@
+@inproceedings{giechaskiel2020capsule,
+  author={Ilias Giechaskiel and Kasper Rasmussen and Jakub Szefer},
+  title={CAPSULe: Cross-FPGA Covert-Channel Attacks through Power Supply Unit Leakage},
+  booktitle={Proceedings of the IEEE Symposium on Security and Privacy},
+  series={S&P},
+  year={2020},
+  month={May},
+}

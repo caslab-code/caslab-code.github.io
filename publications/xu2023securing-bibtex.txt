@@ -1,0 +1,8 @@
+@inproceedings{mi2022securing,
+  author={Chuanqi Xu and Jessie Chen and Allen Mi and Jakub Szefer},
+  title={Securing NISQ Quantum Computer Reset Operations Against Higher Energy State Attacks},
+  booktitle={Proceedings of the Conference on Computer and Communications Security},
+  series={CCS},
+  year={2023},
+  month={November},
+}

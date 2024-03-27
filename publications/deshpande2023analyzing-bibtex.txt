@@ -1,0 +1,8 @@
+@inproceedings{deshpande2023analyzing,
+  author={Sanjay Deshpande and Jakub Szefer},
+  title={Analyzing ChatGPT's Aptitude in an Introductory Computer Engineering Course},
+  booktitle={Proceedings of the International Conference on Frontiers in Education: Computer Science & Computer Engineering},
+  series={FECS},
+  month={July},
+  year={2023},
+}

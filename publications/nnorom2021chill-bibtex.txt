@@ -1,0 +1,8 @@
+@inproceedings{nnorom2021chill,
+  author={Obi Nnorom Jr. and Jalil Morris and Ilias Giechaskiel and Jakub Szefer},
+  title={Chill Out: Freezing Attacks on Capacitors and DC/DC Converters},
+  booktitle={Proceedings of the European Test Symposium},
+  series={ETS},
+  year={2021},
+  month={May},
+}

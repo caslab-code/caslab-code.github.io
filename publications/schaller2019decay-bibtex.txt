@@ -1,0 +1,10 @@
+@article{schaller2019decay,
+  author={Andr\'{e} Schaller and Wenjie Xiong and Nikolaos Athanasios Anagnostopoulos and Muhammad Umair Saleem and Sebastian Gabmeyer and Boris \v{S}kori\'{c} and Stefan Katzenbeisser and Jakub Szefer},
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  title={Decay-Based DRAM PUFs in Commodity Devices},
+  year={2019},
+  volume={16},
+  number={3},
+  pages={462-475},
+  month={May},
+}

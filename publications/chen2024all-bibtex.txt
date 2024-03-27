@@ -1,0 +1,8 @@
+@inproceedings{chen2024stealing,
+  author = {Jessie Chen and Jakub Szefer},
+  title = {Stealing VRP Secrets from Quantum Circuit Structures},
+  booktitle={International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  year={2024},
+  month={May},
+}

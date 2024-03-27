@@ -1,0 +1,8 @@
+@inproceedings{deshpande2021modular,
+  author = {Sanjay Deshpande and Santos Merino del Pozo and Victor Mateu and Marc Manzano and Najwa Aaraj and Jakub Szefer},
+  title = {Modular Inverse for Integers using Fast Constant Time GCD Algorithm and its Applications},
+  booktitle={Proceedings of the International Conference on Field Programmable Logic and Applications},
+  series={FPL},
+  year={2021},
+  month={August},
+}

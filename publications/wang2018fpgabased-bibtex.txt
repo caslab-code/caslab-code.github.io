@@ -1,0 +1,8 @@
+@inproceedings{wang2017fpgabased,
+  author={Wen Wang and Jakub Szefer and Ruben Niederhagen},
+  title={FPGA-based Niederreiter Cryptosystem using Binary Goppa Codes},
+  booktitle={Proceedings of International Conference on Post-Quantum Cryptography},
+  series={PQCrypto},
+  year={2018},
+  month={April},
+}

@@ -1,0 +1,8 @@
+@misc{smith2023fast,
+  author={Kaitlin N. Smith and Joshua Viszlai and Lennart Maximilian Seifert and Jonathan M. Baker and Jakub Szefer and Frederic T. Chong},
+  title={Fast Fingerprinting of Cloud-based NISQ Quantum Computers},
+  booktitle={Proceedings of the International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  year={2023},
+  month={May},
+}

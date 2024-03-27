@@ -1,0 +1,8 @@
+@inproceedings{xu2023exploration,
+  author={Chuanqi Xu and Ferhat Erata and Jakub Szefer},
+  title={Exploration of Power Side-Channel Vulnerabilities in Quantum Computer Controllers},
+  booktitle={Proceedings of the Conference on Computer and Communications Security},
+  series={CCS},
+  year={2023},
+  month={November},
+}

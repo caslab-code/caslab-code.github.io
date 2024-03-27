@@ -1,0 +1,9 @@
+@inproceedings{szefer2012architectural,
+  author = {Szefer, Jakub and Lee, Ruby B.},
+  title = {Architectural Support for Hypervisor-secure Virtualization},
+  booktitle = {Proceedings of the International Conference on Architectural Support for Programming Languages and Operating Systems},
+  series = {ASPLOS},
+  year = {2012},
+  pages = {437--450},
+  numpages = {14},
+} 

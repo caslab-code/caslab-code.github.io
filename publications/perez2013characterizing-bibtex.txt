@@ -1,0 +1,8 @@
+@inproceedings{perez2013characterizing,
+  title={Characterizing hypervisor vulnerabilities in cloud computing servers},
+  author={Perez-Botero, Diego and Szefer, Jakub and Lee, Ruby B},
+  booktitle={Proceedings of the 2013 international workshop on Security in cloud computing},
+  pages={3--10},
+  year={2013},
+  organization={ACM}
+}

@@ -1,0 +1,8 @@
+@inproceedings{trochatos2024dynamic,
+  author = {Theodoros Trochatos and Sanjay Deshpande and Chuanqi Xu and Yao Lu and Yongshan Ding and Jakub Szefer},
+  title = {Dynamic Pulse Switching for Protection of Quantum Computation on Untrusted Clouds},
+  booktitle={International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  year={2024},
+  month={May},
+}

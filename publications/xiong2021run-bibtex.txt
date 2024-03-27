@@ -1,0 +1,6 @@
+@article{xiong2021run,
+  author = {Wenjie Xiong and Andr\'{e} Schaller and Nikolaos A. Anagnostopoulos and Muhammad Umair Saleem and Sebastian Gabmeyer and Stefan Katzenbeisser and Jakub Szefer},
+  title = {DRAM PUFs in Commodity Devices},
+  journal = {IEEE Design & Test},
+  year = {2021},
+}

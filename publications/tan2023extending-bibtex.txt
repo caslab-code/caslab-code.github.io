@@ -1,0 +1,6 @@
+@misc{tan2023extending,
+  author={Jerry Tan and Chuanqi Xu and Theodoros Trochatos and Jakub Szefer},
+  title={Extending and Defending Attacks on Reset Operations in Quantum Computers},
+  year={2023},
+  eprint={arXiv:2309.06281},
+}

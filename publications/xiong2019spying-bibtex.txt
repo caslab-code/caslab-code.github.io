@@ -1,0 +1,8 @@
+@inproceedings{xiong2019spying,
+  author={Wenjie Xiong and Nikolaos Athanasios Anagnostopoulos and Andr\'{e} Schaller and Stefan Katzenbeisser and Jakub Szefer},
+  title={Spying on Temperature using DRAM},
+  booktitle={Proceedings of the Design, Automation, and Test in Europe},
+  series={DATE},
+  year={2019},
+  month={March},
+}

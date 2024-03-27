@@ -1,0 +1,8 @@
+@inproceedings{wang2021cost,
+  author = {Patrick Longa and Wen Wang and Jakub Szefer},
+  title = {The Cost to Break SIKE: A Comparative Hardware-Based Analysis with AES and SHA-3},
+  booktitle={Proceedings of the International Cryptology Conference},
+  series={CRYPTO},
+  year={2021},
+  month={August},
+}

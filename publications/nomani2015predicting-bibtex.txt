@@ -1,0 +1,8 @@
+@inproceedings {nomani2015predicting,
+	author = {Junai Nomani and Jakub Szefer},
+	title = {Predicting Program Phases and Defending Against Side-Channel Attacks using Hardware Performance Counters},
+	booktitle = {Workshop on Hardware Support for Security and Privacy},
+	series = {HASP},
+	year = {2015},
+	month = {June},
+}

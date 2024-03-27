@@ -1,0 +1,9 @@
+@inproceedings{Wang:2017,
+  author={Nikolay Matyunin, Jakub Szefer, and Stefan Katzenbeisser},
+  title={Zero-Permission Acoustic Cross-Device Tracking},
+  booktitle={Proceedings of International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  year={2018},
+  month={May},
+  url={https://ieeexplore.ieee.org/document/8383887/},
+}

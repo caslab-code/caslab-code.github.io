@@ -1,0 +1,8 @@
+@inproceedings{mi2021short,
+  author={Allen Mi and Shuwen Deng and Jakub Szefer},
+  title={Short Paper: Device- and Locality-Specific Fingerprinting of Shared NISQ Quantum Computers},
+  booktitle={Proceedings of the Workshop on Hardware and Architectural Support for Security and Privacy},
+  series={HASP},
+  year={2021},
+  month={October},
+}

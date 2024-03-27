@@ -1,0 +1,9 @@
+@inproceedings{shin2016towards,
+	author = {Ji-Yong Shin and Mahesh Balakrishnan and Tudor Marian and Jakub Szefer and Hakim Weatherspoon},
+	title = {Towards Weakly Consistent Local Storage Systems},
+	booktitle = {Proceedings of the ACM Symposium on Cloud Computing},
+	series = {SOCC},
+	year = {2016},
+	month = {October},
+}
+

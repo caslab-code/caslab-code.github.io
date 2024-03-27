@@ -1,0 +1,8 @@
+@inproceedings{tian2020cloud,
+  author={Shanquan Tian and Andrew Krzywosz and Ilias Giechaskiel and Jakub Szefer},
+  title={Cloud FPGA Security with RO-Based Primitives},
+  booktitle={Proceedings of the International Conference on Field-Programmable Technology},
+  series={FPT},
+  year={2020},
+  month={December},
+}

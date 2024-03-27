@@ -1,0 +1,8 @@
+@inproceedings {biedermann2014hot,
+	author = {Sebastian Biedermann and Stefan Katzenbeisser and Jakub Szefer},
+	title = {Hot-Hardening: Getting More Out Of Your Security Settings},
+	booktitle = {Proceedings of the Annual Computer Security Applications Conference},
+	series = {ACSAC},
+	year = {2014},
+	month = {December},
+}

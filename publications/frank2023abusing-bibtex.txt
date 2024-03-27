@@ -1,0 +1,6 @@
+@article{frank2023abusing,
+  author={Florian Frank and Wenjie Xiong and Nikolaos Athanasios Anagnostopoulos and André Schaller and Tolga Arul and Farinaz Koushanfar and Stefan Katzenbeisser and Ulrich Rührmair and Jakub Szefer},
+  title={Abusing Commodity DRAMs in IoT Devices to Remotely Spy on Temperature},
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2023},
+}

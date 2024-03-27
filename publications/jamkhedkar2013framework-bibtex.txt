@@ -1,0 +1,9 @@
+@inproceedings{jamkhedkar2013framework,
+  title={A framework for realizing security on demand in cloud computing},
+  author={Jamkhedkar, Pramod and Szefer, Jakub and Perez-Botero, Diego and Zhang, Tianwei and Triolo, Gina and Lee, Ruby B},
+  booktitle={2013 IEEE 5th International Conference on Cloud Computing Technology and Science},
+  volume={1},
+  pages={371--378},
+  year={2013},
+  organization={IEEE}
+}

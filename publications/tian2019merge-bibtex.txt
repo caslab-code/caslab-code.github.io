@@ -1,0 +1,8 @@
+@inproceedings{tian2019merge,
+  author={Shanquan Tian and Wen Wang and Jakub Szefer},
+  title={Merge-Exchange Sort Based Discrete Gaussian Sampler with Fixed Memory Access Pattern},
+  booktitle={Proceedings of the International Conference on Field-Programmable Technology},
+  series={FPT},
+  year={2019},
+  month={December},
+}
