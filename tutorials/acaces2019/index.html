@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web page for the summer school course on Processor Architecture Security, which will take place July 14-20, 2019 as part of the ACACES summer school in Fiuggi, Italy.">
+  <title>Summer School Course on Processor Architecture Security @ ACACES 2019</title>
+  
+  <!--link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous"-->
+  <link rel="stylesheet" href="css/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+  
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <!--link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"-->
+    <link rel="stylesheet" href="css/grids-responsive-min.css">
+  <!--<![endif]-->
+  
+  
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="css/layouts/blog.css">
+    <!--<![endif]-->
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+      <h1 class="brand-title">Processor Architecture Security</h1>
+      <h2 class="brand-tagline"><a href="http://acaces.hipeac.net/2019">Course @ ACACES 2019 Summer School</a></h2>
+      <h2 class="brand-tagline">July 14-20, 2019, Fiuggi, Italy</h2>
+    </div>
+  </div>
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+
+      <div class="posts">
+        <h1 class="content-subhead">Summer Course Information</h1>
+
+        <section class="post">
+          <header class="post-header">
+            <h3 class="post-title">Presenter</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              <a href="https://caslab.csl.yale.edu/~jakub"><b>Prof. Jakub Szefer</b></a>,
+              <a href="https://caslab.csl.yale.edu/">Computer Architecture and Security Laboratory</a>,
+              Dept. of Electrical Engineering,
+              Yale University.
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Date, Time and Location</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              The 4 lectures will be given on Mon., Tue., Thur., and Friday (July 15, 16, 18, and 19) during the Slot 3 starting at 14:30 in afternoons.
+            </p>
+            <p>
+              All the ACACES 2019 lectures are at the Silva Hotel Splendid &amp; Congress Center, in Fiuggi, Italy.
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Abstract</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+Processor architecture security has become one of the important aspects of cybersecurity and computer security in recent years. Many of todays processors provide so-called Trusted Execution Environments (TEEs), which leverage hardware extensions to processors to protect users software modules, applications, containers, or even whole Virtual Machines. Proper design and validation of the TEEs is necessary to ensure a systems security and that the processors can ensure confidentiality, integrity and even protection from side-channels or physical attacks, for the code and data they are protecting. Among various threats, side-channels and speculative execution (and attacks that it can lead to) have emerged as key threats that processors should protect from. These have been widely publicized due to the Spectre and Meltdown attacks and their variants.
+<p>
+</p>
+The summer course aims to teach the participants about the principles that processor architects and designers should use to ensure their processor architectures are secure, especially given side- channel attack threats which have re-emerged as a significant threat to security. The summer course will focus on design of secure processor architectures, the TEEs that they provide, and present design patterns that can be gleaned from the existing research works to derive the principles that inform design of the future secure architectures. The course will also dedicate special attention to side-channels and speculative execution attacks. A number of strategies for defense of the various attacks will be presented, including extended discussion of secure processor caches and other designs for secure functional units in the processor. The course will also touch on some hardware security topics, especially pertaining to implementation and manufacturing of the processors, and the threats and possible defense at each step of the design, implementation, and manufacturing of a secure processor.
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Presenter's Bio</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+Jakub Szefer’s research focuses on improving computer systems security at the architecture and hardware levels. His work explores how to leverage physical properties of hardware as security primitives, and has resulted in, for example, different new types of Physically Uncloneable Functions (PUFs) using commodity Dynamic Random Access Memories (DRAMs). His work also aims to improve security at the architecture level, including recent development of a novel 3-step framework for modeling all possible cache and TLB timing attacks, as well as new types of cache-related timing attacks; and mitigations. Large number of his projects involve Field-Programmable Gate Arrays (FPGAs), including implementations of post-quantum cryptographic (PQC) algorithms, and novel attacks and defense for the new Cloud FPGA computing paradigm. His group regularly open-sources hardware code. He is a recipient of NSF’s CAREER award in 2017, and was elected IEEE Senior Member in 2019. Jakub Szefer has written a book on “Principles of Secure Processor Architecture Design” (2018).
+He joined Yale University in summer 2013 as an Assistant Professor of Electrical Engineering, where he started the Computer Architecture and Security Laboratory (CAS Lab). Prior to joining Yale, he received Ph.D. and M.A. degrees in Electrical Engineering from Princeton University and worked with Prof. Ruby B. Lee on secure processor architectures. He received B.S. with highest honors in Electrical and Computer Engineering from University of Illinois at Urbana-Champaign.
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Program</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              The course consists of four 75 min. lectures on the following topics:
+            </p>
+            <p>
+              <b>Mon. 14:30 - 15:45    Processor Security and Secure Processors</b><br/>
+              <b>Tue. 14:30 - 15:45    Side and Covert Channels</b><br/>
+              <b>Wed. (no lectures in afternoon)</b><br/>
+              <b>Thur.14:30 - 15:45    Securing Caches, Buffers, TLBs, and Directories</b><br/>
+              <b>Fri. 14:30 - 15:45    Transient Execution Attacks and Mitigations</b><br/>
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Lecture Slides</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              Lecture sldies are available to ACACES attendees at <a href="https://bit.ly/acaces19">https://bit.ly/acaces19</a>.<br/>
+              The slides can also be downloaded here:<br/>
+              <a href="acaces2019_proc_arch_sec_part-1.pdf">Part 1 slides: Processor Security and Secure Processors</a><br/>
+              <a href="acaces2019_proc_arch_sec_part-2.pdf">Part 2 slides: Side and Covert Channels</a><br/>
+              <a href="acaces2019_proc_arch_sec_part-3.pdf">Part 3 slides: Securing Caches, Buffers, TLBs, and Directories</a><br/>
+              <a href="acaces2019_proc_arch_sec_part-4.pdf">Part 4 slides: Transient Execution Attacks and Mitigations</a><br/>
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Related Book</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              The lectures are partly based on a book recently published by Jakub Szefer.
+              The lectures will complement the book with new material, while
+              the book gives a more in-depth discussion of the topics covered in the lectures.
+              It is available for purchase, or many universities provide free PDF version of the book through their electronic subscriptions.
+            </p>
+            <p>
+              <a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1315">
+              Jakub Szefer, "Principles of Secure Processor Architecture Design", Morgan &amp; Claypool Publishers, October 2018.
+              </a>
+            </p>
+          </div>
+
+
+          <header class="post-header">
+            <h3 class="post-title">Related Links</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              Jakub's other tutorials are available <a href="https://caslab.csl.yale.edu/tutorials">here</a>.<br/>
+              Main ACACES 2019 page is <a href="http://acaces.hipeac.net/2019/index.php?page=home">here</a>.<br/>
+              ACACES 2019 course page is <a href="http://acaces.hipeac.net/2019/index.php?page=courseinfo&lecturer=szefer">here</a>.
+            </p>
+          </div>
+
+        </section>
+      </div>
+
+      <div class="footer">
+        <div class="pure-menu pure-menu-horizontal">
+          <ul>
+            <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">Designed with Pure CCS</a></li>
+            <li class="pure-menu-item"><a href="http://github.com/pure-css/pure/" class="pure-menu-link">Copyright &copy; Jakub Szefer, 2019</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

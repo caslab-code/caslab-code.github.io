@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web page for the tutorial on Design of Secure Processor Architectures which will be presented at CHES 2019 in Atlanta, GA, USA on August 25th, 2019.">
+  <title>Tutorial on Design of Secure Processor Architectures @ CHES 2019</title>
+  
+  <!--link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous"-->
+  <link rel="stylesheet" href="css/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+  
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <!--link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"-->
+    <link rel="stylesheet" href="css/grids-responsive-min.css">
+  <!--<![endif]-->
+  
+  
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="css/layouts/blog.css">
+    <!--<![endif]-->
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+      <h1 class="brand-title">Design of Secure Processor Architectures</h1>
+      <h2 class="brand-tagline"><a href="https://ches.iacr.org/2019/">Tutorial @ CHES 2019</a></h2>
+      <h2 class="brand-tagline">August 25, 2019, Atlanta, GA, USA</h2>
+    </div>
+  </div>
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+
+      <div class="posts">
+        <h1 class="content-subhead">Tutorial Information</h1>
+
+        <section class="post">
+          <header class="post-header">
+            <h3 class="post-title">Presenter</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              <a href="http://caslab.csl.yale.edu/~jakub"><b>Prof. Jakub Szefer</b></a>,
+              <a href="http://caslab.csl.yale.edu/">Computer Architecture and Security Laboratory</a>,
+              Dept. of Electrical Engineering,
+              Yale University.
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Date, Time and Location</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              The tutorial will be given on August 25th, 2019 (Sunday) from 9:30am to 12:30pm.
+            </p>
+            <p>
+              The tutorial will be in Westin Peachtree Hotel, Atlanta, GA, USA (as part of the CHES conference).
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Abstract</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+The objective of this tutorial is to present the principles that processor architects and hardware designers should use when developing secure processor architectures.  Secure processor architectures typically extend commodity processors with new hardware (and related software) features for protection of enclaves, trusted software modules, or even whole operating systems inside virtual machines.  Since typical secure processor architectures extend the main processor in the system with security features, hence performance is an important aspect of the design process.  In addition, however, they must isolate the protect software from other untrusted user software, possibly untrusted management software, and in many cases a variety of physical attacks, usually on memory.  The isolation should also cover all types of possible ways for information leaks, such as through architectural state, micro-architectural state, or due to spatial or temporal sharing of hardware.  And, transient execution attacks (Spectre, Meltdown, and their variants), also needs to be finely controlled to mitigate the new types of transient execution threats.  In this tutorial, various design patterns will be presented and discussed.  First, the tutorial will overview the secure processor architectures and their features.  It will discuss various protection mechanisms for isolation and protection of the software from other, untrusted software.  Second, tutorial will discuss various timing channels and protection mechanisms, such as secure caches, secure TLBs, or secure branch predictors to defend these attacks.  This part will be grounded in a new 3-step model developed for timing channel vulnerability evaluation.  Third, the tutorial will present details of Spectre and Meltdown attacks (and their various variants presented to date) and hardware defenses (and estimations of performance impact of each).  This tutorial will thus cover the three main contemporary research areas of secure processor architectures: the architectures themselves, timing channels, and transient execution attacks.
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Presenter's Bio</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+Jakub Szefer’s research focuses on improving computer systems security at the architecture and hardware levels. His work explores how to leverage physical properties of hardware as security primitives, and has resulted in, for example, different new types of Physically Uncloneable Functions (PUFs) using commodity Dynamic Random Access Memories (DRAMs). His work also aims to improve security at the architecture level, including recent development of a novel 3-step framework for modeling all possible cache and TLB timing attacks, as well as new types of cache-related timing attacks; and mitigations. Large number of his projects involve Field-Programmable Gate Arrays (FPGAs), including implementations of post-quantum cryptographic (PQC) algorithms, and novel attacks and defense for the new Cloud FPGA computing paradigm. His group regularly open-sources hardware code. He is a recipient of NSF’s CAREER award in 2017, and was elected IEEE Senior Member in 2019. Jakub Szefer has written a book on “Principles of Secure Processor Architecture Design” (2018).
+He joined Yale University in summer 2013 as an Assistant Professor of Electrical Engineering, where he started the Computer Architecture and Security Laboratory (CAS Lab). Prior to joining Yale, he received Ph.D. and M.A. degrees in Electrical Engineering from Princeton University and worked with Prof. Ruby B. Lee on secure processor architectures. He received B.S. with highest honors in Electrical and Computer Engineering from University of Illinois at Urbana-Champaign.
+            </p>
+          </div>
+
+
+          <header class="post-header">
+            <h3 class="post-title">Related Book</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              The tutorial is partly based on a book recently published by Jakub Szefer.
+              This tutorial will complement the book with new material, while
+              the book gives a more in-depth discussion of the topics covered in the tutorial.
+              It is available for purchase, or many universities provide free PDF version of the book through their electronic subscriptions.
+            </p>
+            <p>
+              <a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1315">
+              Jakub Szefer, "Principles of Secure Processor Architecture Design", Morgan &amp; Claypool Publishers, October 2018.
+              </a>
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Program</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+               9:30 – 10:00    Secure Processor Architectures (30 min.)<br/>
+              10:10 – 10:20    Break<br/>
+              10:10 – 11:20    Timing Channels: Attacks and Hardware Defenses (70 min.)<br/>
+              11:20 – 11:30    Break<br/>
+              11:30 – 12:30    Transient Execution Attacks and Hardware Defenses (60 min.)<br/>
+              12:30            End<br/>
+            </p-->
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Tutorial Slides</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              Tutorial slides are available <a href="ches2019_des_sec_proc_arch_all_slides.pdf">here</a> (9.5MB).
+            </p>
+          </div>
+
+          <header class="post-header">
+            <h3 class="post-title">Related Links</h3>
+          </header>
+
+          <div class="post-description">
+            <p>
+              Jakub's other tutorials are available <a href="https://caslab.csl.yale.edu/tutorials">here</a>.<br/>
+              Main CHES 2019 page is <a href="https://ches.iacr.org/2019/">here</a>.<br/>
+              CHES 2019 tutorials page is <a href="https://ches.iacr.org/2019/tutorials.shtml">here</a>.
+            </p>
+          </div>
+
+        </section>
+      </div>
+
+      <div class="footer">
+        <div class="pure-menu pure-menu-horizontal">
+          <ul>
+            <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">Designed with Pure CCS</a></li>
+            <li class="pure-menu-item"><a href="http://github.com/pure-css/pure/" class="pure-menu-link">Copyright &copy; Jakub Szefer, 2019</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

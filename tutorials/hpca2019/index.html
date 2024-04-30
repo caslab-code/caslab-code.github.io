@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web page for the tutorial on Principles of Secure Processor Architecture Design which will be presented at HPCA 2019 in Washington, DC on Feb. 17th, 2019.">
+    <title>Tutorial on Principles of Secure Processor Architecture Design @ HPCA 2019</title>
+    
+    <!--link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous"-->
+    <link rel="stylesheet" href="css/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <!--link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"-->
+        <link rel="stylesheet" href="css/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/blog.css">
+        <!--<![endif]-->
+</head>
+<body>
+
+
+
+
+
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <h1 class="brand-title">Principles of Secure Processor Architecture Design</h1>
+            <h2 class="brand-tagline"><a href="http://hpca2019.seas.gwu.edu/">Tutorial @ HPCA 2019</a></h2>
+            <h2 class="brand-tagline">February 17, 2019, Washington, DC, USA</h2>
+
+            <!--nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="http://purecss.io">CASLAB @ Yale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="http://yuilibrary.com">YUI Library</a>
+                    </li>
+                </ul>
+            </nav-->
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">Tutorial Information</h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+                        <!--img width="48" height="48" alt="Tutorial logo" class="post-avatar" src="img/hasp-logo.png"-->
+
+                        <h3 class="post-title">Presenter</h3>
+
+                        <!--p class="post-meta"> By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a-->
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Prof. Jakub Szefer,
+                            <a href="http://caslab.csl.yale.edu/">Computer Architecture and Security Laboratory</a>,
+                            Dept. of Electrical Engineering,
+                            Yale University.
+                        </p>
+                    </div>
+
+                    <header class="post-header">
+                        <!--img width="48" height="48" alt="Tutorial logo" class="post-avatar" src="img/hasp-logo.png"-->
+
+                        <h3 class="post-title">Date, Time and Location</h3>
+
+                        <!--p class="post-meta"> By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a-->
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            The tutorial will be given on February 17th, 2019 (Sunday) from 13:00 to 16:30.
+                        </p>
+                        <p>
+                            The tutorial will be in the Silver Linden Room, at the Marriott Marquis Hotel, Washington, DC, USA (as part of the HPCA conference).
+                        </p>
+                    </div>
+
+                    <header class="post-header">
+                        <!--img width="48" height="48" alt="Tutorial logo" class="post-avatar" src="img/hasp-logo.png"-->
+
+                        <h3 class="post-title">Abstract</h3>
+
+                        <!--p class="post-meta"> By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a-->
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            The objective of this tutorial is to present the principles of secure processor architecture design to the audience. At the heart of each computing system there are one or more processors that execute programs and manipulate the data, some of which may be sensitive, such as medical records or trade secrets. As silicon real estate has become more and more abundant, over the years, processor architects have added new dedicated hardware security features to accelerate cryptographic protections, but more importantly, to provide protections for the code and data. The tutorial will overview the so-called “secure processor architectures”, present design patterns that can be gleaned from the existing research works, and will derive the principles that inform design of the secure processor architectures. Adding security features in hardware has certain challenges, and the tutorial will aim to highlight these – and the common solutions. Defining of what has to be secured and how is often a subjective choice based on qualitative arguments, unlike quantitative choices that computer architects are often used to making, so the tutorial will cover common threat models and how they have been addressed. Moreover, once made, the hardware cannot be easily changed necessitating careful design of the security features in the first place – the tutorial will aim to educate the audience about the features that the secure processor architectures should contain.
+                        </p>
+
+                        <p>
+Information will also be included about features found in Intel SGX, ARM TrustZone and new AMD memory encryption technologies. The tutorial, however, is not meant as a tutorial about specific industry processors, rather, it is a research-focused summary of the basic principles of secure processor architecture design developed by computer architects, including the tutorial presenter, over many years and which now are finally finding their way into commercial products.
+                        </p>
+                    </div>
+
+                    <header class="post-header">
+                        <!--img width="48" height="48" alt="Tutorial logo" class="post-avatar" src="img/hasp-logo.png"-->
+
+                        <h3 class="post-title">The Book</h3>
+
+                        <!--p class="post-meta"> By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a-->
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            The tutorial is based on a book recently published by the presenter.
+                            This tutorial will complement the book with new material, while
+                            the book gives a more in-depth discussion of the topics covered in the tutorial.
+                            It is available for purchase, or many univesities provide free PDF version of the book through their electronic subscriptons.
+                        </p>
+                        <p>
+                            <a href="http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1315">
+                            Jakub Szefer, "Principles of Secure Processor Architecture Design", Morgan &amp; Claypool Publishers, October 2018.
+                            </a>
+                        </p>
+                    </div>
+
+
+                    <header class="post-header">
+                        <!--img width="48" height="48" alt="Tutorial logo" class="post-avatar" src="img/hasp-logo.png"-->
+
+                        <h3 class="post-title">Program</h3>
+
+                        <!--p class="post-meta"> By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a-->
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            The program of the tutorial is as follows:
+                        </p>
+                        <p>
+                            13:00 – 13:30	Secure Processor Architectures<br/>
+                            13:30 – 14:00	Trusted Execution Environments<br/>
+                            14:00 – 14:10	Break<br/>
+                            14:10 – 14:30	Hardware Roots of Trust<br/>
+                            14:30 – 14:50	Memory Protection<br/>
+                            14:50 – 15:00	Multiprocessor and Many-core Protections<br/>
+                            15:00 – 15:10	Break<br/>
+                            15:10 – 15:50	Side-Channels Threats and Protections including Speculative Execution Threats<br/>
+                            15:50 – 16:20	Principles of Secure Processor Architecture Design<br/>
+                            16:20 – 16:30	Ending<br/>
+                        </p>
+                    </div>
+
+
+                    <header class="post-header">
+                        <!--img width="48" height="48" alt="Tutorial logo" class="post-avatar" src="img/hasp-logo.png"-->
+
+                        <h3 class="post-title">Tutorial Slides</h3>
+
+                        <!--p class="post-meta"> By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a-->
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Tutorial slides are available <a href="tutorial_principles_sec_arch_20190217.pdf">here</a>.
+                        </p>
+                    </div>
+
+                    <header class="post-header">
+                        <!--img width="48" height="48" alt="Tutorial logo" class="post-avatar" src="img/hasp-logo.png"-->
+
+                        <h3 class="post-title">Related Tutorials</h3>
+
+                        <!--p class="post-meta"> By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a-->
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            This tutorial is an updated version of a tutorial previously presented at HOST 2018 and HiPEAC 2019.
+                        </p>
+                    </div>
+
+
+                </section>
+            </div>
+
+
+
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul>
+                        <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">Designed with Pure CCS</a></li>
+                        <li class="pure-menu-item"><a href="http://github.com/pure-css/pure/" class="pure-menu-link">Copyright &copy; Jakub Szefer, 2019</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
