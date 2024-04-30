@@ -1,0 +1,288 @@
+
+A {color: #0E4C92; text-decoration: none}
+
+A:hover {
+	color: #0E4C92;
+	text-decoration: underline;
+}
+
+body {
+	font-family: sans-serif;
+	font-size:11pt;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 2pt;
+	padding: 0pt;
+}
+
+.stafflist {
+    list-style-type:none;
+    margin:10px 0 0 25px;
+    padding:0;
+}
+
+.stafflist li {
+    margin-bottom:10px;
+    padding:0;
+}
+
+.textblock {
+    margin:10px 0 10px 25px;
+}
+
+.staffname {
+    font-weight:bold;
+}
+
+td {
+
+	vertical-align: top;
+}
+
+.homenav {
+	font-size: 11pt; 
+	font-weight: bold; 
+	color: #0E4C92;
+	text-decoration: none;
+}
+
+#titlepanel {
+	margin-left: 170px;
+	margin-right: 250px;
+	height: 50px;
+}
+
+#centerpanelfull {
+	padding: 2px;
+	padding-bottom:30px;
+	margin-left: 220px;
+	margin-right: 35px;
+}
+
+#centerpanelmedium {
+	padding: 2px;
+	margin-left: 195px;
+	margin-right: 200px;
+}
+
+#leftpanel {
+	position: absolute;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: right;
+	float: left;
+	width: 175px;
+	position: relative;
+}
+
+#rightpanel {
+	margin: 15px;
+	width: 200px;
+	float: right;
+	background-color: #CCCCFF;
+	border: 1px dotted #000000;
+	padding: 5px;
+}
+
+#rightpanelraw {
+	margin: 15px;
+	width: 160px;
+	float: right;
+	border: 1px dotted #000000;
+	padding: 5px;
+	background-color: #CCCCFF;
+}
+
+.starred {
+	font-size: 18px;
+        font-weight: bold;
+        color:#CC6600;
+}
+
+.announcement {
+	font-size: 13px;
+}
+
+.announcetitle {
+	font-size: 13px;
+        font-weight: bold;
+}
+
+.datetag {
+	float: right;
+	font-size: 12px;
+}
+
+
+.title {
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+.header {
+	color: #000000;
+	font-size:120%;
+	font-weight: bold;
+	border-bottom: 2px solid #0E4C92;
+}
+
+.newstitle {
+	color: #000000;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.newsbody {
+	font-size: 9pt;
+}
+
+.newsbyline {
+	font-size: 8pt;
+	text-align: right;
+	tex-style: italic;
+}
+
+HR {
+	color: #8E9389;
+}
+
+.calendar {}
+
+.calendar_month_head {
+        font-size:              9pt;
+        font-weight:            normal;
+}
+
+.calendar_day_head {
+        font-size:              7pt;
+        font-weight:            normal;
+}
+
+.calendar_day_noday {}
+
+.calendar_day_link {
+        text-align:             right;
+}
+
+.calendar_day_nolink {
+        text-align:             right;
+}
+
+.table-data-white {
+	font-size: 10pt;
+}
+
+.box {
+	font-size: 10pt;
+	background-color: #CCCCFF;
+	border: 1px dotted #000000;
+	padding: 5px;
+}
+
+.small {
+	font-size: 10pt;
+}
+
+.project {
+
+	font-size: 10pt;
+	padding: 10px;
+	border: 2px dotted #c60;
+}
+
+.timeslotday {
+
+  	margin-top: 50px;
+	
+}
+
+.timeslotday h3 {
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.timeslotday td.closed {
+	background-color: red;
+        font-weight: bold;
+}
+
+.month {
+	text-align: center;
+	background-color: #C8C8C8;
+}
+
+.noclassday {
+	background-color: #B0B0B0;
+}
+
+.lectureday {
+	background-color: #E8E8E8;
+}
+
+.recitationday {
+	background-color: #E8E8E8;
+}
+
+.quizday {
+	background-color: #F0D0F0;
+}
+
+.quiz {
+	font-weight: bold;
+}
+
+.pset {
+	font-style: italic;
+}
+
+.callist {
+}
+
+.listtitle {
+	font-weight: bold;
+}
+
+.listdesc {
+}
+
+.listread {
+	font-style: italic;
+}
+
+
+table {
+	border: 0px solid black;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+}
+
+th {
+	border: 0px solid black;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.r1 {
+}
+
+.r2 {
+	width: 22%;
+}
+
+.r3 {
+	width: 60%;
+}
+
+.r4 {
+}
+
+td {
+	border: 0px solid black;
+	overflow: hidden;
+}
+
+tr {
+	padding: 4px;
+}
