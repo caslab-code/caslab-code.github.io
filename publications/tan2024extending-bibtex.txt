@@ -1,0 +1,8 @@
+@inproceedings{tan2024extending,
+  author = {Jerry Tan and Chuanqi Xu and Theodoros Trochatos and Jakub Szefer},
+  title = {Extending and Defending Attacks on Reset Operations in Quantum Computers},
+  booktitle={International Symposium on Secure and Private Execution Environment Design},
+  series={SEED},
+  year={2024},
+  month={May},
+}

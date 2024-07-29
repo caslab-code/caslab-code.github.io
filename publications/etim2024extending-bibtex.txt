@@ -1,0 +1,8 @@
+@inproceedings{etim2024extending,
+  author = {Anthony Etim and Shanquan Tian and Jakub Szefer},
+  title = {Extending FPGA Information Leaks with Trojan Phantom Circuits},
+  booktitle={International Symposium on Secure and Private Execution Environment Design},
+  series={SEED},
+  year={2024},
+  month={May},
+}

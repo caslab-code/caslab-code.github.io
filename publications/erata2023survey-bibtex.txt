@@ -1,0 +1,6 @@
+@article{erata2023survey,
+author={Ferhat Erata and Shuwen Deng and Faisal Zaghloul and Wenjie Xiong and Onur Demir and Jakub Szefer},
+title={Survey of Approaches and Techniques for Security Verification of Computer Systems},
+journal={Journal on Emerging Technologies in Computing Systems},
+year={2023},
+}
