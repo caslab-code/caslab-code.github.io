@@ -1,0 +1,296 @@
+#!/bin/bash
+
+# Autor: Jakub Szefer <jakub.szefer@yale.edu>
+# Created: June 4, 2019
+
+# This script is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+# Revisions:
+#
+# June 4, 2019      -- initial script
+# June 5, 2019      -- add sanity check to ensure cloc program is installed
+# August 29, 2019   -- update to add Secure TLBs code counting
+# January 3, 2019   -- add counting of TrustCom '19 and TIFS '19 code
+# January 7, 2019   -- add code counting for FPGA '19
+# November 16, 2020 -- add code counting for HPCA '20, ASPLOS '20, FPGA '20, CHES '20
+
+if ! [ -x "$(command -v cloc)" ]; then
+  echo 'Error: cloc is not installed.' >&2
+  exit 1
+fi
+
+mkdir -p countclocdir
+cd countclocdir
+
+SUM=$((0))
+CNT=$((0))
+
+URL=https://caslab.csl.yale.edu/code/temporalthermalcc/temporal-thermal-covert-channels-2020-01-07.tar.gz
+ARCHIVE=temporal-thermal-covert-channels-2020-01-07.tar.gz
+FOLDER=temporal-thermal-covert-channels-2020-01-07.tar.gz
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=https://caslab.csl.yale.edu/code/puf-software-protection/puf-software-protection-2020-01-03.tar.gz
+ARCHIVE=puf-software-protection-2020-01-03.tar.gz
+FOLDER=puf-software-protection-2020-01-03
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=https://caslab.csl.yale.edu/code/popchannels/thermal_channels_pop_dram-2020-01-03.tar.gz
+ARCHIVE=thermal_channels_pop_dram-2020-01-03.tar.gz
+FOLDER=thermal_channels_pop_dram-2020-01-03
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+COUNT=$(cat $FOLDER/CC_DRAMPUF.patch | grep "+ " | wc -l | sed -n 's/ *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=http://caslab.csl.yale.edu/code/tempspy/DRAM_Temp_Spy-2019-03-21.tar.gz
+ARCHIVE=DRAM_Temp_Spy-2019-03-21.tar.gz
+FOLDER=DRAM_Temp_Spy
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=http://caslab.csl.yale.edu/code/xmsshwswriscv/xmss_hw_sw_codesign_on_riscv-2019-05-17.tar.gz
+ARCHIVE=xmss_hw_sw_codesign_on_riscv-2019-05-17.tar.gz
+FOLDER=xmss_hw_sw_codesign_on_riscv-2019-05-17
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=http://caslab.csl.yale.edu/code/niederreiter/niederreiter-2018-05-16.tar.gz
+ARCHIVE=niederreiter-2018-05-16.tar.gz
+FOLDER=niederreiter-2018-05-16
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=http://caslab.csl.yale.edu/code/keygen/key_generator-2017-10-11.tar.gz
+ARCHIVE=key_generator-2017-10-11.tar.gz
+FOLDER=key_generator-2017-10-11
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=http://caslab.csl.yale.edu/code/rowhammerpuf/RHPUFcode-2017-04-28.tar.gz
+ARCHIVE=RHPUFcode-2017-04-28.tar.gz
+FOLDER=RHPUFcode-2017-04-28
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+mkdir $FOLDER
+tar -xzf $ARCHIVE -C $FOLDER
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cat $FOLDER/RHPUF_uboot.patch | grep "+ " | wc -l | sed -n 's/ *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=http://caslab.csl.yale.edu/code/gausselim/gausselim-2016-12-08.tar.gz
+ARCHIVE=gausselim-2016-12-08.tar.gz
+FOLDER=gausselim-2016-12-08
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=http://caslab.csl.yale.edu/code/drampuf/dram_puf_2017-04-11.tar.gz
+ARCHIVE=dram_puf_2017-04-11.tar.gz
+FOLDER=dram_puf_2017_04_11
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=http://caslab.csl.yale.edu/code/systemwall/systemwall-2014-08-12.tar.gz
+ARCHIVE=systemwall-2014-08-12.tar.gz
+FOLDER=systemwall-2014-08-12
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=https://caslab.csl.yale.edu/code/securetlbs/secure_tlbs-2019-08-28.tar.gz
+ARCHIVE=secure_tlbs-2019-08-28.tar.gz
+FOLDER=secure_tlbs-2019-08-28
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+# Skip riscv-test directory, which has a lot of assembly code with
+# big array definitions that is our code, but artificially inflates the numbers of useful code
+COUNT=$(cloc --exclude-dir=riscv-tests $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=https://caslab.csl.yale.edu/code/cache-lru-attack/cache-lru-attack-2020-11-16.tar.gz
+ARCHIVE=cache-lru-attack-2020-11-16.tar.gz
+FOLDER=cache-lru-attack-2020-11-16
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=https://caslab.csl.yale.edu/code/cloud-fpga-fingerprinting/cloud-fpga-fingerprinting-code-2019-12-16.tar.gz
+FOLDER=cloud-fpga-fingerprinting-code-2019-12-16
+ARCHIVE=$FOLDER.tar.gz
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+URL=https://caslab.csl.yale.edu/code/cache-security-benchmarks/benchmark_suite_cache_timing_attacks-2020-02-16.tar.gz
+ARCHIVE=benchmark_suite_cache_timing_attacks-2020-02-16.tar.gz
+FOLDER=code_publish
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+# CHES '20
+
+URL=https://caslab.csl.yale.edu/code/qtesla-hw-sw-platform/qtesla_hw_sw_codesign_on_riscv_20200412.tar.gz
+FOLDER=qtesla_hw_sw_codesign_on_riscv_20200412
+ARCHIVE=$FOLDER.tar.gz
+
+echo "Downloading $ARCHIVE"
+wget -q $URL
+echo "Extracting $ARCHIVE"
+tar -xzf $ARCHIVE
+echo "Counting lines of code in $FOLDER"
+COUNT=$(cloc $FOLDER | grep 'SUM' | sed -n 's/SUM: *[0-9]* *[0-9]* *[0-9]* *\([0-9]*\)/\1/p')
+echo $COUNT
+SUM=$(($SUM + $COUNT))
+CNT=$((CNT + 1))
+echo ""
+
+
+echo "Total projects: $CNT"
+
+echo "Total lines of code: $SUM"
+
+echo ""
+
+cd ..
+rm -rf countclocdir
+

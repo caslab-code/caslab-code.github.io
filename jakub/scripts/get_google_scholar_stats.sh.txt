@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Autor: Jakub Szefer <jakub.szefer@yale.edu>
+# Date: June 5, 2019
+
+# This script is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+# Revisions:
+#
+# June 5, 2019 -- initial script
+# June 9, 2019 -- update citations string printing
+# Dec 12, 2019 -- save citation count and h-index history in textfile
+# Jun 14, 2021 -- update output text
+
+URL='https://scholar.google.com/citations?hl=en&user=NO1Je2kAAAAJ&view_op=list_works&sortby=pubdate'
+
+wget -q $URL -O scholar.html
+
+CITATIONS=$(cat scholar.html | grep -o 'Citations</a></td><td class="gsc_rsb_std">[0-9]*' | sed -n 's/.*std\">\([0-9]*\).*/\1/p')
+HINDEX=$(cat scholar.html | grep -o 'h-index</a></td><td class="gsc_rsb_std">[0-9]*' | sed -n 's/.*std\">\([0-9]*\).*/\1/p')
+
+echo "Citations: $CITATIONS, H-index: $HINDEX &#x2B1E;"
+# echo "&#x2B1E; Citations: $CITATIONS &#x2B1E; H-index: $HINDEX<br/>"
+
+TODAY=$(date)
+
+echo "$TODAY $CITATIONS $HINDEX" >> /home/jakub/public_html/citation_history.txt
+
+rm scholar.html
+

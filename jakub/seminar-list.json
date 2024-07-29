@@ -1,0 +1,58 @@
+{
+	"20230918" : {
+		"date": "Sept. 18, 2023",
+		"event": "CU-Boulder, Electrical Engineering Department, Seminar Speaker",
+		"event-url": "https://calendar.colorado.edu/event/ecee_seminar_series_security_of_quantum_computing_systems_with_jakub_szefer",
+		"video": "",
+		"video-url": ""
+	},
+	"20230919" : {
+		"date": "Sept. 19, 2023",
+		"event": "Colorado School of Mines, Computer Science Department, Seminar Speaker",
+		"event-url": "https://cs.mines.edu/seminars/",
+		"video": "",
+		"video-url": ""
+	},
+	"20230928" : {
+		"date": "Sept. 28, 2023",
+		"event": "IEEE Computer Society, Oregon Section, Technical Seminar, Seminar Speaker",
+		"event-url": "https://events.vtools.ieee.org/m/374898",
+		"video": "",
+		"video-url": ""
+	},
+	"20231013" : {
+		"date": "Oct. 13, 2023",
+		"event": "Purdue Institute for Control, Optimization, and Networks (ICON), Seminar Speaker",
+		"event-url": "https://engineering.purdue.edu/ICON/Seminars",
+		"video": "",
+		"video-url": ""
+	},
+	"20231020" : {
+		"date": "Oct. 20, 2023",
+		"event": "University of Massachusetts Amherst, Electrical and Computer Engineering Department, Seminar Speaker",
+		"event-url": "",
+		"video": "",
+		"video-url": ""
+	},
+	"20231024" : {
+		"date": "Oct. 24, 2023",
+		"event": "Inside Quantum Technology (IQT NYC) Quantum Cybersecurity, Networking & Sensors Event, Speaker",
+		"event-url": "https://iqtevent.com/newyork/#speakers",
+		"video": "",
+		"video-url": ""
+	},
+	"20231028" : {
+		"date": "Oct. 28, 2023",
+		"event": "Hardware and Architectural Support for Security and Privacy (HASP), Keynote Speaker",
+		"event-url": "https://haspworkshop.org",
+		"video": "",
+		"video-url": ""
+	},
+	"20231115" : {
+		"date": "Nov. 15, 2023",
+		"event": "University of Delaware, Electrical and Computer Engineering Department, Seminar Speaker",
+		"event-url": "#",
+		"video": "",
+		"video-url": ""
+	}
+}
