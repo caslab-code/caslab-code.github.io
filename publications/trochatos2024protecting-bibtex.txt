@@ -1,0 +1,8 @@
+@inproceedings{trochatos2024protecting,
+  author={Theodoros Trochatos and Chuanqi Xu and Sanjay Deshpande and Yao Lu and Yongshan Ding and Jakub Szefer},
+  title={Protecting Quantum Computers with a Trusted Controller},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  year={2024},
+  month={September},
+}

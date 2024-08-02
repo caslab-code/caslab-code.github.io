@@ -1,0 +1,8 @@
+@inproceedings{typaldos2024leveraging,
+  author={George Typaldos and Wei Tang and Jakub Szefer},
+  title={Leveraging Quantum Circuit Cutting for Obfuscation and Intellectual Property Protection},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  year={2024},
+  month={September},
+}

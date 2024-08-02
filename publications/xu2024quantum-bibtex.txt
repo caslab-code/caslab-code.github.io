@@ -1,0 +1,8 @@
+@inproceedings{xu2024quantum,
+  author={Chuanqi Xu and Ferhat Erata and Jakub Szefer},
+  title={Quantum Computer Fault Injection Attacks},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  year={2024},
+  month={September},
+}

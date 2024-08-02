@@ -1,0 +1,8 @@
+@inproceedings{chen2024counting,
+  author={Jessie Chen and Jakub Szefer},
+  title={Counting Bases from Number of Qubits: Inferring VRP from Quantum Circuits},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  year={2024},
+  month={September},
+}
