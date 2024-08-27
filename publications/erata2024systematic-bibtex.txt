@@ -1,0 +1,8 @@
+@inproceedings{tan2024extending,
+  author = {Ferhat Erata and TingHung Chiu and Anthony Etim and Srilalith Nampally and Tejas Raju and Rajashree Ramu and Ruzica Piskac and Timos Antonopoulos and Wenjie Xiong and Jakub Szefer},
+  title = {Systematic Use of Random Self-Reducibility in Cryptographic Code against Physical Attacks},
+  booktitle={International Conference on Computer-Aided Design},
+  series={ICCAD},
+  year={2024},
+  month={October},
+}

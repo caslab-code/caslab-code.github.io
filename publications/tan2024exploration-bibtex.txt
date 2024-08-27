@@ -1,0 +1,8 @@
+@inproceedings{tan2024extending,
+  author = {Yizhuo Tan and Chuanqi Xu and Jakub Szefer},
+  title = {Exploration of Timing and Higher-Energy Attacks on Quantum Random Access Memory},
+  booktitle={International Conference on Computer-Aided Design},
+  series={ICCAD},
+  year={2024},
+  month={October},
+}
