@@ -1,0 +1,8 @@
+@inproceedings{tan2024study,
+  author = {Yizhuo Tan and Hrvoje Kukina and Jakub Szefer},
+  title = {Study of Attacks on the HHL Quantum Algorithm},
+  booktitle={Workshop on Quantum IntelLigence, Learning & Security},
+  series={QUILLS},
+  year={2024},
+  month={October},
+}
