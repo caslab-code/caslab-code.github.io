@@ -1,0 +1,7 @@
+@inproceedings{trochatos2024quantum,
+  author={Theodoros Trochatos and Jakub Szefer},
+  title={Quantum Operating System Support for Quantum Trusted Execution Environments},
+  booktitle={NSF Workshop on Quantum Operating Systems and Real-Time Control},
+  year={2024},
+  month={November},
+}
