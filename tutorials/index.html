@@ -155,10 +155,21 @@ var x = setInterval(function() {
 
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-12" style="border-top-style:solid;border-top-width:0px;border-top-color:#999999;">
-          <h1>Upcoming Tutorials</h1>
+        <div class="col-md-12" style="border-top-style:solid;border-top-width:0px;border-top-color:#999999;text-align:center;">
+          <h1>Next Tutorial in: 
+          <p id="timertext" style="text-color:#4E2A84;"></p>
+          </h1>
         </div>
       </div>
+
+      <div class="row">
+            <div class="col-md-11 appearing-border">
+                <h3>Tutorial on: <a href="isca2025/">Tutorial on Quantum Computer Architecture Security</a></h3>
+                <p><b>June 21, 2025</b>, co-located with <b>ISCA 2025</b>.</p>
+            </div>
+      </div>
+
+     <!--
 
       <div class="row">
             <div class="col-md-11 appearing-border">
@@ -179,7 +190,7 @@ var x = setInterval(function() {
                 <p>The objective of this tutorial is to present the principles that processor architects and hardware designers should use when developing secure processor architectures.</p>
                 <p>
                    <b>August 25, 2019</b>.  Co-located with <b>CHES 2019</b>.
-                   <!-- Time left: <span id="ches2019"></span>. -->
+                   < Time left: <span id="ches2019"></span>. >
                 </p>
             </div>
       </div>
@@ -190,7 +201,7 @@ var x = setInterval(function() {
                 <p>This is a course with 4 lectures covering topics ranging from design of Trusted Execution Environments (TEEs) to timing channels and speculative execution attacks.</p>
                 <p>
                    <b>July 14-20, 2019</b>.  The course is part of the <b>ACACES 2019 Summer School</b>.
-                   <!-- Time left: <span id="acaces2019"></span>.-->
+                   < Time left: <span id="acaces2019"></span>.>
                 </p>
             </div>
       </div>
@@ -204,39 +215,40 @@ var x = setInterval(function() {
 
       <div class="row">
             <div class="col-md-11 appearing-border">
-                <h3>Tutorial on: <!--a href="/tutorials/asplos2019/"-->Principles of Secure Processor Architecture Design<!--/a--></h3>
+                <h3>Tutorial on: <a href="/tutorials/asplos2019/">Principles of Secure Processor Architecture Design</a></h3>
                 <p><b>April 14, 2019</b>.  Co-located with <b>ASPLOS 2019</b>. This tutorial has been superseded by the CHES 2019 and ACACES 2019 versions.</p>
             </div>
       </div>
 
       <div class="row">
             <div class="col-md-11 appearing-border">
-                <h3>Tutorial on: <!--a href="/tutorials/hpca2019/"-->Principles of Secure Processor Architecture Design<!--/a--></h3>
+                <h3>Tutorial on: <a href="/tutorials/hpca2019/">Principles of Secure Processor Architecture Design</a></h3>
                 <p><b>February 17, 2019</b>.  Co-located with <b>HPCA 2019</b>. This tutorial has been superseded by the CHES 2019 and ACACES 2019 versions.</p>
             </div>
-      </div><!--/row-->
+      </div></row>
 
       <div class="row">
             <div class="col-md-11 appearing-border">
-                <h3>Tutorial on: <!--a href="/tutorials/hipeac2019/"-->Principles of Secure Processor Architecture Design<!--/a--></h3>
+                <h3>Tutorial on: <a href="/tutorials/hipeac2019/">Principles of Secure Processor Architecture Design</a></h3>
                 <p><b>January 22, 2019</b>.  Co-located with <b>HiPEAC 2019</b>. This tutorial has been superseded by the CHES 2019 and ACACES 2019 versions.</p>
             </div>
       </div>
 
       <div class="row">
             <div class="col-md-11 appearing-border">
-		<h3>Tutorial on: <!--a href="/tutorials/host2018/"-->Principles of Secure Processor Architecture Design<!--/a--></h3>
+		<h3>Tutorial on: <a href="/tutorials/host2018/">Principles of Secure Processor Architecture Design</a></h3>
                 <p><b>April 30, 2018</b>.  Co-located with <b>HOST 2018</b>. This tutorial has been superseded by the CHES 2019 and ACACES 2019 versions.</p>
             </div>
-      </div><!--/row-->
+      </div>
 
+      -->
 
       <hr class="featurette-divider">
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2021 Jakub Szefer</p>
+        <p>&copy; 2025 Jakub Szefer</p>
       </footer>
 
     </div><!-- /.container -->
@@ -252,5 +264,40 @@ var x = setInterval(function() {
     <script src="../bootstrap/holder.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../bootstrap/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Display the countdown timer in an element -->
+
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("June 21, 2025 00:00:00").getTime();
+    // Date is in UTC time zone
+
+    // Update the count down every 1 second
+    var x = setInterval(function() 
+    {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="timertext"
+      document.getElementById("timertext").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timertext").innerHTML = "no upcoming tutorial is currently scheduled";
+      }
+    }, 1000);
+</script>
   
 </body></html>
