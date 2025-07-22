@@ -1,6 +1,0 @@
-@misc{trochatos2023security,
-  author={Theodoros Trochatos and Anthony Etim and Jakub Szefer},
-  title={Security Evaluation of Thermal Covert-channels on SmartSSDs},
-  year={2023},
-  eprint={arXiv:2305.09115},
-}
