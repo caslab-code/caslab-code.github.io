@@ -1,0 +1,9 @@
+@inproceedings{trochatos2025exploration,
+  title={Exploration of Vulnerabilities of Fault-Tolerant Quantum Computing},
+  author={Trochatos, Theodoros and Kang, Christopher and Chong, Frederic T and Szefer, Jakub},
+  booktitle={International Symposium on Quality Electronic Design},
+  series={ISQED},
+  pages={1--6},
+  year={2025},
+  month={April},
+}

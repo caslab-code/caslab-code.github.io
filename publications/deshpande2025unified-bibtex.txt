@@ -1,0 +1,9 @@
+@inproceedings{deshpande2025unified,
+      author = {Sanjay Deshpande and Yongseok Lee and Mamuri Nawan and Kashif Nawaz and Ruben Niederhagen and Yunheung Paek and Jakub Szefer},
+      title = {Unified MEDS Accelerator},
+      book = {Selected Areas in Cryptography},
+      series = {SAC},
+      year = {2025},
+      month = {August},
+}
+

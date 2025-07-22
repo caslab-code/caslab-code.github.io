@@ -1,0 +1,7 @@
+@book{szefer2024security,
+  title={Security of FPGA-Accelerated Cloud Computing Environments},
+  author={Szefer, Jakub and Tessier, Russell},
+  year={2024},
+  publisher={Springer}
+}
+

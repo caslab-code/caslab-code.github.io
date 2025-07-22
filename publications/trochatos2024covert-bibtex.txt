@@ -1,0 +1,10 @@
+@article{trochatos2024covert,
+  title={Covert-channels in FPGA-enabled SmartSSDs},
+  author={Trochatos, Theodoros and Etim, Anthony and Szefer, Jakub},
+  journal={ACM Transactions on Reconfigurable Technology and Systems},
+  volume={17},
+  number={2},
+  pages={1--23},
+  year={2024},
+  month={April},
+}

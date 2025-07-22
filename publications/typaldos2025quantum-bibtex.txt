@@ -1,0 +1,8 @@
+@inproceedings{typaldos2024quantum,
+  author={George Typaldos and Theodoros Trochatos and Jakub Szefer},
+  title={Quantum Circuit Cutting: A Security Methodology},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  year={2025},
+  month={August},
+}

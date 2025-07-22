@@ -1,0 +1,11 @@
+@article{trochatos2023quantum,
+  title={A quantum computer trusted execution environment},
+  author={Trochatos, Theodoros and Xu, Chuanqi and Deshpande, Sanjay and Lu, Yao and Ding, Yongshan and Szefer, Jakub},
+  journal={IEEE Computer Architecture Letters},
+  volume={22},
+  number={2},
+  pages={177--180},
+  year={2023},
+  month={July},
+}
+

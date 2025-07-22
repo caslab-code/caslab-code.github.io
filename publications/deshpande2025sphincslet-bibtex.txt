@@ -1,0 +1,8 @@
+@article{deshpande2025sphincslet,
+  title={SPHINCSLET: An area-efficient accelerator for the full SPHINCS+ digital signature algorithm},
+  author={Deshpande, Sanjay and Lee, Yongseok and Karakuzu, Cansu and Szefer, Jakub and Paek, Yunheung},
+  journal={ACM Transactions on Embedded Computing Systems},
+  year={2025},
+  month={March},
+}
+

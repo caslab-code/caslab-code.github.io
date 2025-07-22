@@ -1,0 +1,8 @@
+@inproceedings{sharma2025evaluation,
+  author={Pranet Sharma and Yizhuo Tan and Konstantinos-Nikolaos Papadopoulos and Jakub Szefer},
+  title={Evaluation of Noise and Crosstalk in Neutral Atom Quantum Computers},
+  booktitle={Quantum-Classical Orchestration for Resilient Engineering Workshop},
+  series={Q-CORE},
+  year={2025},
+  month={August},
+}

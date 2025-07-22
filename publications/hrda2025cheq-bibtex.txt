@@ -1,0 +1,10 @@
+@inproceedings{hrda2025cheq,
+  title={CHEQ: Towards Enabling Circuit Integrity Checking in Quantum Controllers},
+  author={Hrd{\'a}, Barbora and Deshpande, Sanjay and Trochatos, Theodoros and Szefer, Jakub},
+  booktitle={Proceedings of the Great Lakes Symposium on VLSI 2025},
+  series={GLSVLSI},
+  pages={265--272},
+  year={2025},
+  month={June},
+}
+

@@ -1,0 +1,8 @@
+@inproceedings{arellano2025qubitvise,
+  author={Adriana Aranguren Arellano and He Xie and Jakub Szefer},
+  title={QubitVise: Double-Sided Crosstalk Attack in Superconducting Quantum Computers},
+  booktitle={Workshop on Quantum Computing Security, Privacy and Resilience},
+  series={Q-SEC},
+  year={2025},
+  month={August},
+}
