@@ -1,7 +1,0 @@
-@misc{xu2023classification,
-  title={Classification of Quantum Computer Fault Injection Attacks},
-  author={Chuanqi Xu and Ferhat Erata and Jakub Szefer},
-  year={2023},
-  month={September},
-  eprint={arXiv:2309.05478},
-}
