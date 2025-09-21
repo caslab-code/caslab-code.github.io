@@ -1,0 +1,8 @@
+@inproceedings{tan2024securing,
+  author={Yizhuo Tan and Hrvoje Kukina and Jakub Szefer},
+  title={Securing HHL Quantum Algorithm against Quantum Computer Attacks},
+  booktitle={Workshop on Hardware and Architectural Support for Security and Privacy},
+  series={HASP},
+  year={2025},
+  month={October},
+}

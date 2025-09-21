@@ -1,0 +1,8 @@
+@inproceedings{xu2025security,
+  author={Chuanqi Xu and Jakub Szefer},
+  title={Security Attacks Abusing Pulse-level Quantum Circuits},
+  booktitle={Symposium on Security and Privacy},
+  series={S&P},
+  month={May},
+  year={2025},
+}

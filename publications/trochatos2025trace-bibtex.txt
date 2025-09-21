@@ -1,0 +1,9 @@
+@misc{trochatos2025trace,
+      title={Trace-Based Reconstruction of Quantum Circuit Dataflow in Surface Codes}, 
+      author={Theodoros Trochatos and Christopher Kang and Andrew Wang and Frederic T. Chong and Jakub Szefer},
+      year={2025},
+      eprint={2508.14533},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2508.14533}, 
+}
