@@ -18,7 +18,7 @@ jpg_path = pdf_path[:-4] + "-first-page.jpg"
 print("The image will be saved as " + jpg_path)
 
 # Store PDF with convert_from_path function
-images = convert_from_path(pdf_path,dpi=300,size=(512, None))
+images = convert_from_path(pdf_path,dpi=400,size=(1024, None))
 
 # Save first page as JPEG image
 images[0].save(jpg_path)
