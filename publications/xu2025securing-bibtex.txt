@@ -1,0 +1,8 @@
+@inproceedings{xu2025securing,
+  author={Chuanqi Xu and Jamie Sikora and Jakub Szefer},
+  title={Securing Quantum Computer Reset with One-Time Pads},
+  booktitle={Quantum Security and Privacy Workshop},
+  series={QSec},
+  year={2025},
+  month={October},
+}

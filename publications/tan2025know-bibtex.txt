@@ -1,0 +1,8 @@
+@inproceedings{tan2024know,
+  author={Yizhuo Tan and Jakub Szefer},
+  title={I Know What You Are Reading: Evaluating Readout Crosstalk in Cloud-based Quantum Computers},
+  booktitle={Quantum Security and Privacy Workshop},
+  series={QSec},
+  year={2025},
+  month={October},
+}

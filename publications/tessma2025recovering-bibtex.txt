@@ -1,0 +1,8 @@
+@inproceedings{tessma2025recovering,
+  author={Kidus Tessma and Hrvoje Kukina and Jakub Szefer},
+  title={Recovering QSVT Polynomials from Side-Channel Information on Quantum Computers},
+  booktitle={International Conference on Computer Design},
+  series={ICCD},
+  year={2025},
+  month={November},
+}
