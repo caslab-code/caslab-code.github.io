@@ -1,0 +1,7 @@
+@inproceedings{deshpande2025quantum,
+  title={What is Quantum Computer Security?}, 
+  author={Sanjay Deshpande and Jakub Szefer},
+  booktitle={SIGDA Newsletter},
+  month={November},
+  year={2025},
+}
