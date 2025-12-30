@@ -1,0 +1,9 @@
+@misc{trochatos2025trace,
+      title={Research Directions in Quantum Computer Cybersecurity},
+      author={Jakub Szefer},
+      year={2025},
+      eprint={2512.23607},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2512.23607},
+}
