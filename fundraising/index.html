@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CASLAB Fundraising">
+  <meta name="author" content="">
+
+  <title>CASLAB</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 20;
+    }
+    .navbar-wrapper > .container {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .navbar-wrapper .navbar {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .navbar-wrapper .navbar .container {
+      width: auto;
+    }
+
+    /* TOP OF PAGE SPACER
+    -------------------------------------------------- */
+    .spacer {
+      height: 100px;
+    }
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+    .marketing .col-lg-4 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .col-lg-4 p {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    /* Featurettes
+    ------------------------- */
+    .featurette-divider {
+      margin: 60px 0;
+    }
+    .featurette-heading {
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+    .appearing-border {
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: #e5e5e5;
+      padding-bottom: 60px;
+      margin-bottom: 60px;
+    }
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+    @media (min-width: 768px) {
+      .navbar-wrapper { margin-top: 20px; }
+      .navbar-wrapper .container { padding-right: 15px; padding-left: 15px; }
+      .navbar-wrapper .navbar { padding-right: 0; padding-left: 0; }
+      .navbar-wrapper .navbar { border-radius: 4px; }
+      .courses { border-radius: 4px; margin: 15px; background-color: #eeeeee; }
+      .featurette-heading { font-size: 50px; }
+      .appearing-border {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #e5e5e5;
+        padding-bottom: 60px;
+        margin-bottom: 60px;
+      }
+    }
+    @media (min-width: 992px) {
+      .featurette-heading { margin-top: 100px; }
+      .appearing-border {
+        border-bottom-style: solid;
+        border-bottom-width: 0px;
+        border-bottom-color: #ffffff;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+      }
+    }
+
+    /* ================================================
+       PAGE-SPECIFIC ADDITIONS
+    ================================================ */
+
+    /* Section label — small caps above headings */
+    .section-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #999;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    /* Hero intro box */
+    .hero-box {
+      background-color: #f8f8f8;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 36px 36px 28px;
+      margin-bottom: 0;
+    }
+    .hero-box h1 {
+      font-size: 30px;
+      font-weight: 300;
+      letter-spacing: -1px;
+      color: #333;
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+    .hero-box .lead {
+      font-size: 15px;
+      color: #5a5a5a;
+      margin-bottom: 24px;
+    }
+
+    /* Stat boxes */
+    .stat-box {
+      text-align: center;
+      padding: 20px 12px;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      background: #fff;
+      margin-bottom: 16px;
+    }
+    .stat-box .num {
+      font-size: 38px;
+      font-weight: 300;
+      color: #d9534f;
+      line-height: 1;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .stat-box .lbl {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #999;
+      line-height: 1.4;
+    }
+
+    /* Threat cards — left-bordered like a Bootstrap warning but red */
+    .threat-item {
+      border-left: 3px solid #d9534f;
+      padding: 12px 16px;
+      margin-bottom: 10px;
+      background: #fff;
+      border-top: 1px solid #e5e5e5;
+      border-right: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      border-radius: 0 4px 4px 0;
+    }
+    .threat-item h4 {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #333;
+      margin: 0 0 4px;
+    }
+    .threat-item p {
+      font-size: 13px;
+      color: #777;
+      margin: 0;
+      line-height: 1.55;
+    }
+
+    /* Timeline callout — Bootstrap warning style */
+    .callout-warning {
+      padding: 14px 18px;
+      margin-top: 20px;
+      background-color: #fcf8e3;
+      border: 1px solid #faebcc;
+      border-radius: 4px;
+      font-size: 13px;
+      color: #8a6d3b;
+      line-height: 1.6;
+    }
+
+    /* Aim panels */
+    .aim-box {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 20px;
+      margin-bottom: 20px;
+      height: 100%;
+    }
+    .aim-box .aim-num {
+      font-size: 44px;
+      font-weight: 300;
+      color: #e5e5e5;
+      line-height: 1;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .aim-box h4 {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #d9534f;
+      margin: 0 0 8px;
+    }
+    .aim-box p {
+      font-size: 13px;
+      color: #777;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    /* Team cards */
+    .team-box {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .team-avatar {
+      width: 46px;
+      height: 46px;
+      background: #5a5a5a;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 300;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .team-box h4 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #333;
+      margin: 0 0 2px;
+    }
+    .team-box .role {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #d9534f;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .team-box p {
+      font-size: 13px;
+      color: #777;
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    /* Placeholder helper note */
+    .placeholder-note {
+      background: #f5f5f5;
+      border: 1px dashed #ccc;
+      border-radius: 4px;
+      padding: 12px 16px;
+      font-size: 12px;
+      color: #999;
+    }
+
+    /* Budget table */
+    .budget-line {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 13px;
+    }
+    .budget-line:last-child { border-bottom: none; }
+    .budget-pct { color: #d9534f; font-weight: 600; }
+
+    /* Donate panel */
+    .donate-box {
+      background: #f8f8f8;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 24px;
+    }
+    .donate-box h3 { font-weight: 300; color: #333; margin-top: 0; }
+    .donate-box p { font-size: 13px; line-height: 1.6; }
+    .sff-note {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 11px 14px;
+      font-size: 12px;
+      color: #777;
+      margin-top: 14px;
+      line-height: 1.6;
+    }
+    .sff-note strong { color: #333; }
+
+    /* Transparency boxes */
+    .t-box {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 18px;
+      margin-bottom: 20px;
+    }
+    .t-box h4 {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #333;
+      margin: 0 0 8px;
+    }
+    .t-box p { font-size: 13px; color: #777; margin: 0; line-height: 1.55; }
+
+    /* Progress bar override — thinner, red */
+    .progress { height: 6px; border-radius: 2px; margin-bottom: 5px; }
+    .progress-bar-custom { background-color: #d9534f; }
+
+    /* Goal number */
+    .goal-amount {
+      font-size: 38px;
+      font-weight: 300;
+      color: #333;
+      line-height: 1;
+    }
+    .goal-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #999;
+      display: block;
+      margin-top: 3px;
+      margin-bottom: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar-wrapper">
+    <div class="container">
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+              data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://caslab.io/">CASLAB</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="https://caslab.io/">Home</a></li>
+              <li><a href="https://caslab.io/group/index.html">Our Group</a></li>
+              <li><a href="https://caslab.io/publications/index.html">Publications</a></li>
+              <li><a href="https://caslab.io/books/index.html">Books</a></li>
+              <li class="active"><a href="#">Fundraising</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div id="mySpacer" class="spacer"></div>
+
+  <!-- Begin page content -->
+  <div class="container marketing">
+
+    <!-- ══════════════════════════════════════════
+         HERO
+    ══════════════════════════════════════════ -->
+    <div class="row" style="margin-bottom: 40px;">
+      <div class="col-md-7">
+        <div class="hero-box">
+          <span class="section-label">Fundraising for QML and AI Safety</span>
+          <h1>Securing AI Safety Before<br>Quantum Changes the Rules</h1>
+          <p class="lead">
+		Quantum Machine Learning will eventually break existing AI alignment mechanisms, enable unverifiable deceptive systems, and concentrate AI power among a narrow few. The research cycle to build robust defenses takes a decade; the window to quantum advantage is measured in years. Almost no one is working on this intersection. We are building the defenses before that window closes.
+          </p>
+          <a href="mailto:jakub.szefer@northwestern.edu?Subject=QML Funding Inquiry" class="btn btn-danger">Support This Research</a>
+          &nbsp;
+          <a href="#problem" class="btn btn-default">Read the Case</a>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="stat-box" style="padding: 8px;">
+          <span class="num">0</span>
+          <span class="lbl">Dedicated QML safety research<br>centers worldwide</span>
+        </div>
+        <div class="stat-box" style="padding: 8px;">
+          <span class="num">5&ndash;15<small style="font-size:18px">yr</small></span>
+          <span class="lbl">Window before quantum-capable<br>adversaries likely emerge</span>
+        </div>
+        <div class="stat-box" style="padding: 8px;">
+          <span class="num">4</span>
+          <span class="lbl">Targeted open-output<br>research workstreams</span>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider" id="problem">
+
+    <!-- ══════════════════════════════════════════
+         THE THREAT
+    ══════════════════════════════════════════ -->
+    <div class="row">
+      <div class="col-md-12">
+        <span class="section-label">The Threat</span>
+        <h2 class="featurette-heading" style="margin-top:0;">Why QML Safety Is a Neglected Frontier</h2>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 24px;">
+      <div class="col-md-6">
+        <p>
+          The AI safety community has made meaningful progress on alignment, interpretability,
+          and containment. Almost none of that work accounts for what happens when quantum
+          computing reaches meaningful scale.
+        </p>
+        <p>
+          Quantum Machine Learning is not an imminent crisis, but the 5&ndash;15 year
+          horizon to credible quantum advantage in relevant domains is shorter than the typical
+          research-to-deployment cycle for safety infrastructure. We are in the preparation
+          window, and it is largely unoccupied.
+        </p>
+        <p>
+          Crucially, quantum advantage will not arrive evenly. Nation-states and well-capitalized
+          actors will acquire it first. Without proactive defense research, QML capabilities
+          become a unilateral advantage over existing safety mechanisms, held by precisely
+          those with the fewest constraints on how they are used.
+        </p>
+        <div class="callout-warning">
+          <b>On timelines:</b> We are not claiming quantum computers will imminently break AI
+          safety. We claim the research cycle to build robust defenses is long enough that
+          starting in five years may already be too late. The asymmetry between offense and
+          defense timelines is the core risk.
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="threat-item" style="padding: 8px;">
+          <h4>Alignment Mechanism Attacks</h4>
+          <p>QML optimization techniques may identify and exploit weaknesses in
+          models that classical methods cannot find at scale, effectively breaking trained
+          safety behaviors.</p>
+        </div>
+        <div class="threat-item" style="padding: 8px;">
+          <h4>Unverifiable Deceptive Systems</h4>
+          <p>Quantum-assisted training could produce models whose internal representations are
+          computationally intractable to inspect with classical interpretability tools,
+          creating systems that cannot be verified as non-deceptive.</p>
+        </div>
+        <div class="threat-item" style="padding: 8px;">
+          <h4>Containment Protocol Failure</h4>
+          <p>Existing containment and shutdown protocols assume classical computational bounds.
+          Quantum-enhanced agents may exploit timing or procedural vulnerabilities in these
+          protocols that classical agents cannot.</p>
+        </div>
+        <div class="threat-item" style="padding: 8px;">
+          <h4>Access Concentration</h4>
+          <p>If safety defenses require quantum resources to implement, organizations without
+          quantum access become permanently disadvantaged, concentrating safe AI
+          among only few.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider" id="solution">
+
+    <!-- ══════════════════════════════════════════
+         OUR PLAN
+    ══════════════════════════════════════════ -->
+    <div class="row">
+      <div class="col-md-12">
+        <span class="section-label">Our Plan</span>
+        <h2 class="featurette-heading" style="margin-top:0;">Four Workstreams. One Mandate: Defense First.</h2>
+        <p style="margin-bottom: 28px;">
+          Each workstream produces concrete, openly published outputs, threat models,
+          tools, architecture specifications, and practitioner guides, accessible to all
+          organizations regardless of whether they hold quantum resources.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="aim-box">
+          <span class="aim-num">01</span>
+          <h4>Threat Evaluation</h4>
+          <p>Systematically evaluate how QML attack vectors could compromise current alignment
+          and containment protocols. <b>Output:</b> a peer-reviewed threat taxonomy and
+          severity framework.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="aim-box">
+          <span class="aim-num">02</span>
+          <h4>Verification Frameworks</h4>
+          <p>Develop formal and empirical frameworks for verifying that QML-trained systems
+          cannot pursue hidden goals that classical interpretability tools would miss.
+          <b>Output:</b> open-source verification tools and methodology.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="aim-box">
+          <span class="aim-num">03</span>
+          <h4>Quantum-Resistant Architectures</h4>
+          <p>Design safety architectures robust under quantum-assisted adversarial pressure
+          and implementable without quantum resources. <b>Output:</b> implementable
+          architecture specifications.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="aim-box">
+          <span class="aim-num">04</span>
+          <h4>Open Publication</h4>
+          <p>All findings published openly with explicit accessibility for under-resourced
+          organizations. Capacity-building workshops for AI safety teams without quantum access.
+          <b>Output:</b> public reports, workshop series, and practitioner guides.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>
+	&copy; Jakub Szefer, 2026
+      </p>
+    </footer>
+
+  </div><!-- /.container -->
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"><\/script>');
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script>
+    // Animate progress bar on load
+    // Update raisedPct (0-100) as donations come in
+    var raisedPct = 0;
+    $(document).ready(function () {
+      setTimeout(function () {
+        $('#progressBar').css('width', raisedPct + '%').attr('aria-valuenow', raisedPct);
+      }, 400);
+    });
+  </script>
+
+</body>
+</html>
