@@ -14,6 +14,8 @@ parser.add_argument('-p', '--gen-pdf-link', dest='p', default=False, action='sto
 #          help='add dummy Bibtex link in HTML entry for paper')
 parser.add_argument('-e', '--gen-eprint-link', dest='e', default=False, action='store_true', required=False,
           help='add dummy ePrint link in HTML entry for paper')
+parser.add_argument('-a', '--gen-arxiv-link', dest='a', default=False, action='store_true', required=False,
+          help='add dummy arXiv link in HTML entry for paper')
 parser.add_argument('-c', '--gen-code-link', dest='c', default=False, action='store_true', required=False,
           help='add dummy Code page link in HTML entry for paper')
 args = parser.parse_args()
@@ -22,6 +24,7 @@ bibtex_path = args.bibtex
 gen_pdf = args.p
 #gen_bibtex = args.b
 gen_eprint = args.e
+gen_arxiv = args.a
 gen_code = args.c
 
 # Parse Bibtex
@@ -110,6 +113,10 @@ print("[ <a href=\"/publications/" + bibtex_path + "\">BibTeX</a> ]&nbsp;")
 # optional
 if gen_eprint:
   print("[ <a href=\"#\">prior ePrint</a> ]&nbsp;")
+
+# optional
+if gen_arxiv:
+  print("[ <a href=\"https://arxiv.org/abs/\">arXiv version</a> ]&nbsp;")
 
 # optional
 if gen_code:

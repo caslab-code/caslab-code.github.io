@@ -1,0 +1,6 @@
+@misc{xu2026oqram,
+  author={Shifan Xu and Yizhuo Tan and Yongshan Ding and Jakub Szefer},
+  title={OQRAM: Oblivious Quantum Random Access Memory for Securing Delegated Quantum Queries},
+  year={2026},
+  eprint={arXiv:2607.27171},
+}
