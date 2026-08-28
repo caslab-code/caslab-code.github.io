@@ -1,0 +1,10 @@
+@inproceedings{tan2026qubithammer,
+  title={Qubithammer: Remotely inducing qubit state change on superconducting quantum computers},
+  author={Tan, Yizhuo and Choudhury, Navnil and Basu, Kanad and Szefer, Jakub},
+  booktitle={International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  month={May},
+  pages={151--161},
+  year={2026},
+  organization={IEEE}
+}

@@ -1,0 +1,8 @@
+@inproceedings{deshpande2026accelerating,
+  author={Sanjay Deshpande and Patrick Longa and Jakub Szefer},
+  title={Accelerating FrodoKEM in Hardware},
+  booktitle={Transactions on Cryptographic Hardware and Embedded Systems},
+  series={TCHES},
+  year={2026},
+  month={October},
+}

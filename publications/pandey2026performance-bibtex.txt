@@ -1,0 +1,8 @@
+@inproceedings{pandey2026performance,
+  author={Nishant Pandey and Sanjay Deshpande and Dixit Dutt Bohra and Debapriya Basu Roy and Dip Sankar Banerjee and Jakub Szefer},
+  title={Performance Analysis of Parameterizable HQC Hardware Architecture},
+  booktitle={Selected Areas in Cryptography},
+  series={SAC},
+  month={August},
+  year={2026},
+}

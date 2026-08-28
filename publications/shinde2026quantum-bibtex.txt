@@ -1,0 +1,8 @@
+@inproceedings{shinde2026quantum,
+  author={Siddarth Shinde and Jakub Szefer},
+  title={Quantum Fidelity-per-Cost: A Metric for Evaluation of Quantum Computing Systems},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  month={September},
+  year={2026},
+}

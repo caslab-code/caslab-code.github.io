@@ -1,0 +1,8 @@
+@inproceedings{papadopoulos2026feasibility,
+  author={Konstantinos-Nikolaos Papadopoulos and Kaitlin N. Smith and Jakub Szefer},
+  title={On the Feasibility of Time-Multiplexed Control for Surface Code Fault Tolerant Computation},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  month={September},
+  year={2026},
+}

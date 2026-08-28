@@ -1,0 +1,9 @@
+@inproceedings{etim2026faultinjection,
+  title={Fault Injection Attacks and Countermeasures on TinyML Algorithms},
+  author={Etim, Anthony and Nampally, Srilalith and Rasouli, Aubtin and Mazza, Dustin and Chilakapati, Krishna and Chiu, Tinghung and Erata, Ferhat and Nazhandali, Leyla and Xiong, Wenjie and Szefer, Jakub},
+  booktitle={International Symposium on Hardware Oriented Security and Trust},
+  series={HOST},
+  month={May},
+  pages={68--78},
+  year={2026},
+}

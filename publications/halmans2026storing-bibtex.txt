@@ -1,0 +1,8 @@
+@inproceedings{halmans2026storing,
+  author={Stef Halmans and Niklas Höher and Dina Hesse and Sanjay Deshpande and Jakub Szefer and Tim Güneysu},
+  title={Storing Less in-the-Head: An Area-Efficient Hardware Architecture for SDitH-v2},
+  booktitle={International Conference on the Theory and Application of Cryptology and Information Security},
+  series={Asiacrypt},
+  month={December},
+  year={2026},
+}

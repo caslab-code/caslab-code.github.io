@@ -1,0 +1,8 @@
+@inproceedings{trochatos2026soteriaq,
+  author={Theodoros Trochatos and Chuanqi Xu and Sanjay Deshpande and Yao Lu and Yongshan Ding and Jakub Szefer},
+  title={SoteriaQ: Secure Quantum Computation via Gate-Level Obfuscation from Untrusted Clouds},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  month={September},
+  year={2026},
+}

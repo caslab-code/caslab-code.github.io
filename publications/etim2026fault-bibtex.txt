@@ -1,0 +1,8 @@
+@inproceedings{etim2026fault,
+  author={Anthony Etim and Jakub Szefer},
+  title={Fault Attacks on ML-based Quantum Control and Error Correction},
+  booktitle={International Conference on Quantum Computing and Engineering},
+  series={QCE},
+  month={September},
+  year={2026},
+}

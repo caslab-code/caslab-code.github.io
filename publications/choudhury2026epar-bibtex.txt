@@ -1,0 +1,9 @@
+@inproceedings{choudhury2026epar,
+  author={Choudhury, Navnil and Tan, Yizhuo and Yu, Jiaqi and Szefer, Jakub and Basu, Kanad},
+  title={EPAR: Electromagnetic Pathways to Architectural Reliability in Quantum Processors},
+  booktitle={Design Automation Conference},
+  series={DAC},
+  month={July}, 
+  year={2026},
+}
+
