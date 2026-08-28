@@ -1,0 +1,10 @@
+@inproceedings{trochatos2026traceq,
+  author={Trochatos, Theodoros and Kang, Christopher and Wang, Andrew and Chong, Frederic T and Szefer, Jakub},
+  title={TraceQ: Trace-Based Reconstruction of Quantum Circuit Dataflow in Surface-Code Fault-Tolerant Quantum Computing},
+  booktitle={International Symposium on High Performance Computer Architecture},
+  series={HPCA},
+  month={January},
+  pages={1--14},
+  year={2026},
+}
+

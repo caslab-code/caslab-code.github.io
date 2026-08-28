@@ -1,0 +1,11 @@
+@article{erata2023etap,
+  title={Etap: Energy-aware timing analysis of intermittent programs},
+  author={Erata, Ferhat and Yildiz, Eren and Goknil, Arda and Yildirim, Kasim Sinan and Szefer, Jakub and Piskac, Ruzica and Sezgin, Gokcin},
+  journal={ACM Transactions on Embedded Computing Systems},
+  volume={22},
+  number={2},
+  pages={1--31},
+  year={2023},
+  publisher={ACM New York, NY}
+}
+
