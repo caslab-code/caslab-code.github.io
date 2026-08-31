@@ -1,0 +1,8 @@
+@misc{etim2024time,
+  author    = {Etim, Anthony and Szefer, Jakub},
+  title     = {Time Traveling to Defend Against Adversarial Example Attacks in Image Classification},
+  journal   = {arXiv preprint arXiv:2410.08338},
+  year      = {2024},
+  doi       = {10.48550/arXiv.2410.08338},
+  url       = {https://arxiv.org/abs/2410.08338}
+}

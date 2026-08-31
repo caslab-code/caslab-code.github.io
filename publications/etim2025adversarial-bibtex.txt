@@ -1,0 +1,8 @@
+@misc{etim2025adversarial,
+  author    = {Etim, Anthony and Szefer, Jakub},
+  title     = {Adversarial Universal Stickers: Universal Perturbation Attacks on Traffic Sign using Stickers},
+  journal   = {arXiv preprint arXiv:2502.18724},
+  year      = {2025},
+  doi       = {10.48550/arXiv.2502.18724},
+  url       = {https://arxiv.org/abs/2502.18724}
+}
