@@ -1,0 +1,8 @@
+@incollection{szefer2014hardware,
+  author={Jakub Szefer and Ruby B. Lee},
+  title={Hardware-Enhanced Security for Cloud Computing},
+  booktitle={Secure Cloud Computing},
+  publisher={Springer},
+  pages={57--76},
+  year={2014},
+}

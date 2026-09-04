@@ -1,0 +1,7 @@
+@incollection{xu2026securityattacks,
+  author={Chuanqi Xu and Jakub Szefer},
+  title={Security Attacks Abusing Pulse-Level Quantum Circuits},
+  booktitle={Design Automation for Quantum Computing},
+  publisher={Springer},
+  year={2026},
+}

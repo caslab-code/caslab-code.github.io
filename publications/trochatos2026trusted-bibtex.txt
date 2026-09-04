@@ -1,0 +1,7 @@
+@incollection{trochatos2026trusted,
+  author={Theodoros Trochatos and Chuanqi Xu and Sanjay Deshpande and Yao Lu and Yongshan Ding and Jakub Szefer},
+  title={Trusted Execution Environments for Quantum Computers},
+  booktitle={Design Automation for Quantum Computing},
+  publisher={Springer},
+  year={2026},
+}
