@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+  <head>
+
+    <script src="assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Quantum Computer Cybersecurity Symposium</title>
+
+    <link rel="canonical" href="https://caslab.io/events/qccs">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/>
+      </symbol>
+      <symbol id="cart" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </symbol>
+      <symbol id="chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </symbol>
+    </svg>
+
+<nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand d-md-none" href="https://caslab.io/events/qccs">
+      QCCS 2026
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item"><a class="nav-link navbar-brand" href="index.html">QCCS Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+          <li class="nav-item"><a class="nav-link" href="#venues">Venues</a></li>
+          <li class="nav-item"><a class="nav-link" href="#directions">Directions</a></li>
+          <li class="nav-item"><a class="nav-link" href="mailto:jakub.szefer@northwestern.edu?subject=QCCS webpage contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="../2026/index.html">Prior QCCS 2026</a></li>
+          <li class="nav-item"><a class="nav-link" href="../2025/index.html">Prior QCCS 2025</a></li>
+          <li class="nav-item"><a class="nav-link" href="../2024/index.html">Prior QCCS 2024</a></li>
+          <li class="nav-item"><a class="nav-link" href="../2023/index.html">Prior QCCS 2023</a></li>
+        </ul>
+      </div>
+  </div>
+</nav>
+
+<main>
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+    <div class="col-md-7 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-bold">QCCS 2027</h1>
+      <h1 class="display-5 fw-bold">5th Annual Quantum Computer Cybersecurity Symposium</h1>
+      <h1 class="display-6 fw-normal">To be held in Fall 2027 at Northwestern University</h1>
+    </div>
+  </div>
+
+  <div class="position-relative overflow-hidden p-1 p-md-1 m-md-1 text-center bg-body-tertiary">
+    <div class="col-md-11 p-lg-1 mx-auto my-1">
+      <h3 class="display-10 fw-bold">
+QCCS is an annual event co-organized by Prof. Jakub Szefer of the Electrical and Computer Engineering department
+and the Institute for Quantum Information Research and Engineering (INQUIRE) at Northwestern University.
+</h3>
+      <h3 class="display-10 fw-bold">
+        <a href="https://www.mccormick.northwestern.edu/electrical-computer/"><img src="logo-ece.png" style="width: 33%;"/></a>
+        <a href="https://quantum.northwestern.edu/"><img src="logo-inquire-v2.png" style="width: 46%;"/></a>
+      </h3>
+    </div>
+  </div>
+
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+
+    <div class="bg-body-tertiary me-md-2 pt-2 px-2 pt-md-2 px-md-2 overflow-hidden">
+      <div class="my-3 p-3">
+        <h3 class="display-7">Call for Presentations &mdash; Not Yet Announced</h3>
+        <p>
+We expect to introduce a new method for solicitation of presentations and a new call for presentations,
+with a spring and late summer deadlines.
+      </p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+
+    <div class="bg-body-tertiary me-md-2 pt-2 px-2 pt-md-2 px-md-2 overflow-hidden">
+      <div class="my-3 p-3">
+        <h3 class="display-7">Call for Posters &mdash; Not Yet Announced</h3>
+        <p>
+We expect to again hold a poster session, and we expect to hold a call for posters focusing on poster submissions from both academia and industry,
+including from practitioners whose work cannot be published as a conventional paper, across the full spectrum of security for quantum computing systems.
+Poster sessions are expected to be help in parallel with the two main days of QCCS 2027. Poster presenters are expected to present posters in-person,
+no remote poster presntation option will be available.
+      </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+
+    <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden" id="program">
+      <div class="my-3 py-3">
+        <h2 class="display-5">QCCS Pre-Training Day 1:<br />Date TBD</h2>
+        <p>
+We expect to hold a half-day physical security pre-training day 1, which will be in-person only.
+        </p>
+        <p>
+
+           <li>12:00 &mdash; We expect lunch followed by training</br></br></li>
+
+           <li>13:00 &mdash; We expect afternoon training</br></br></li>
+
+           <li>16:00 &mdash; We expect conclusion followed by dinner</li>
+
+           <li>17:00 &mdash; Dinner is expected on pre-training day 1</li>
+
+        </ul>
+        </p>
+
+      </div>
+    </div>
+
+    <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden" id="program">
+      <div class="my-3 py-3">
+        <h2 class="display-5">QCCS Pre-Training Day 2:<br />Date TBD</h2>
+        <p>
+We expect to hold a full-day quantum computing and security pre-training day 2, which will be in-person only.
+        </p>
+        <p>
+
+           <li>9:00 &mdash; We expect breakfast followed by quantum computing training</br></br></li>
+
+           <li>12:00 &mdash; We expect lunch followed by quantum security training</br></br></li>
+
+           <li>16:00 &mdash; We expect conclusion followed by dinner</li>
+
+           <li>17:00 &mdash; Dinner is expected on pre-training day 2</li>
+
+        </ul>
+        </p>
+
+      </div>
+    </div>
+
+
+    <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden" id="program">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Main Program Day 1<br />Date TBD</h2>
+
+          <p>
+           <ul style="text-align: left; font-weight: normal">
+             <li>09:00 &mdash; Day 1 Opening and Welcome</br></br></li>
+             <li style="list-style: none;"><b>Keynote</b></li>
+             <li>9:30 &mdash; Expected Keynote</li>
+
+             <li>10:30 &mdash; Expected Coffee and Networking Break</br></br></li>
+             <li style="list-style: none;"><b>Session 1</b></li>
+             <li>10:45 &mdash; Expected talks</li>
+             <li>12:00 &mdash; Expected Lunch and Networking</br></br></li>
+             <li style="list-style: none;"><b>Session 2</b></li>
+             <li>13:00 &mdash; Expected Talks</li>
+
+             <li>14:00 &mdash; Expected Coffee and Networking Break</br></br></li>
+
+             <li style="list-style: none;"><b>Session 3</b></li>
+             <li>14:30 &mdash; Expected Talks</li>
+
+             <li>15:45 &mdash; Conclusion of Day 1 &mdash; Prof. Jakub Szefer</br></br></li>
+
+             <li>16:00 &mdash; Day 1 End of Day Networking and Going to Dinner</br></br></li>
+
+             <li>17:00 &mdash; QCCS Day 1 Dinner</li>
+          </ul>
+          </p>
+
+        </div>
+      </div>
+
+    <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center overflow-hidden" id="program">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Main Program Day 2:<br />Date TBD</h2>
+
+          <p>
+           <ul style="text-align: left; font-weight: normal">
+             <li>09:00 &mdash; Day 2 Opening and Welcome and Breakfast</br></br></li>
+
+             <li style="list-style: none;"><b>Session 4</b></li>
+             <li>9:30 &mdash; Expected poster session presentations</li>
+
+             <li>10:30 &mdash; Expected Coffee and Networking Break</br></br></li>
+
+             <li style="list-style: none;"><b>Session 5</b></li>
+             <li>11:00 &mdash; Expected presentations</li>
+
+             <li>12:00 &mdash; Expected Lunch and Networking</br></br></li>
+
+             <li style="list-style: none;"><b>Session 6</b></li>
+             <li>13:00 &mdash; Expected presentations</li>
+
+             <li>14:00 &mdash; Expected Coffee and Networking Break</br></br></li>
+
+             <li style="list-style: none;"><b>Session 7</b></li>
+             <li>14:30 &mdash; Expected presentations</li>
+
+             <li>16:00 &mdash; Expected Award Presentation and Day 2 Ending</br></br></li>
+
+          </ul>
+          </p>
+
+        </div>
+      </div>
+
+    <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="sponsors">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Sponsors</h2>
+        <p class="lead">We are soliciting sponsorship at the below levels:</p>
+
+        <p><b>Quantum Sponsor:</b><br/></p>
+
+        <p>Please e-mail <a href="mailto:jakub.szefer@northwestern.edu?title=QCCS sponsor inquiry">jakub.szefer@northwestern.edu</a> if you would like to sponsor QCCS</p>
+
+        <p><b>Gold Sponsor:</b><br/></p>
+
+        <p>Please e-mail <a href="mailto:jakub.szefer@northwestern.edu?title=QCCS sponsor inquiry">jakub.szefer@northwestern.edu</a> if you would like to sponsor QCCS</p>
+
+        <p><b>Silver Sponsor:</b><br/></p>
+
+        <p>Please e-mail <a href="mailto:jakub.szefer@northwestern.edu?title=QCCS sponsor inquiry">jakub.szefer@northwestern.edu</a> if you would like to sponsor QCCS</p>
+
+        <p><b>Bronze Sponsor:</b><br/></p>
+
+        <p>Please e-mail <a href="mailto:jakub.szefer@northwestern.edu?title=QCCS sponsor inquiry">jakub.szefer@northwestern.edu</a> if you would like to sponsor QCCS</p>
+
+
+        <p><b>Event Support:</b><br/></p>
+
+<p>We would like to acknowledge the continued help of Jim Bray, Demetria Giannisis, and K. Michael Brooks from INQUIRE for their assistance in organizing this event.</p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="position-relative overflow-hidden p-1 p-md-1 m-md-1 text-center bg-body-tertiary">
+    <div class="col-md-11 p-lg-1 mx-auto my-1">
+      <h3 class="display-10 fw-bold">Join our sister event: Northwestern Quantum Week, expected spring 2028, at Northwestern University</h3>
+      <h3 class="display-10 fw-bold"><a href="https://quantum.northwestern.edu/events/northwestern-quantum-week/"><img src="northwestern-quantum-week.png" style="width: 80%;"/></a></h3>
+    </div>
+  </div>
+
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+
+    <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="venues">
+      <div class="my-3 p-3">
+        <h2 class="display-5">QCCS Venues</h2>
+        <p class="lead">
+The QCCS 2027 will be on the campus of Northwestern University, the specific venue has not yet been announced.
+        </p>
+        <p><b>Physical Location</b>: Please see the directions section below for details about the locations of both venues.</p>
+        <p><b>Remote Participation</b>: The event is primarily in-person, pre-training will be only in-person. Remote participants will be provided a Zoom link by e-mail if they are not able to join in person. Only main two days will have Zoom option.
+      </div>
+      <!--div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div-->
+    </div>
+
+    <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="hotel">
+      <div class="my-3 p-3">
+        <h2 class="display-5">QCCS Hotel</h2>
+        <p class="lead">Recommended Hotel information.</p>
+        <p>
+Participants wishing to stay close to campus are encouraged to book their rooms at the <a href="https://www.hilton.com/en/hotels/ordoehf-hilton-orrington-evanston/">Hilton Orrington</a>
+or <a href="https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/">The Graduate</a>. Both hotels are within a 10-minute walk of the venues.
+        </p>
+        <p>
+Please see <a href="#directions">directions</a> for information on how to travel to Evanston and our venues if you are staying in a hotel outside of Evanston.
+        </p>
+      </div>
+      <!--div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div-->
+    </div>
+
+  </div>
+
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+
+    <div class="text-bg-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="directions">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Directions to QCCS</h2>
+        <p class="lead">
+The events of QCCS 2027 will be held on the campus of Northwestern University, specific event locations have not yet been selected.
+        </p>
+        <p>
+<b>By Car</b>: participants driving to the campus are encouraged to park at the South Campus Parking Garage located at 1847 Campus Drive,
+alternatively, the North Campus Parking Garage located at 2311 North Campus Drive is closer to the Cohen Commons.
+The parking garage cost is about $10 per day.
+        </p>
+        <p><b>By CTA Train (Purple Line)</b>: participants arriving via metro should take the Purple Line from Chicago to the Davis station
+located at 1612 Benson Ave, Evanston, IL; the walking distance from the station is about 15 minutes to campus.</p>
+        <p><b>By Metra Train</b>: participants arriving via train should take the Metra train from Chicago to the Davis Street/Evanston station
+located at 901 Davis St, Evanston, IL; the walking distance from the station is about 15 minutes to campus.</p>
+        <p><b>By Plane</b>: participants flying to the event can fly to O'Hare (ORD) airport. Lyft or Uber from ORD to the venues should take about 40 minutes if there is no traffic and cost about $50.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+
+    <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="organizer">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Founder and General Chair</h2>
+        <p class="lead">QCCS was started in 2023 by Prof. Jakub Szefer.</p>
+        <p>Prof. <a href="https://caslab.io/jakub">Jakub Szefer</a> leads the <a href="https://caslab.io">Computer Architecture and Security Laboratory (CASLAB)</a> at Northwestern University. His research focuses on security of computer systems, architectures, hardware, and cloud cyber-infrastructures. He is pioneering the field of Quantum Computer Security, with extensive prior research on processor security, DRAM security, FPGA security, and Post-Quantum Cryptographic hardware.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+
+    <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Resources</h2>
+        <p class="lead">List of Resources Relevant to the Symposium</p>
+        <p><b>BibTeX with Relevant Publications</b>: A (naturally incomplete) bibliography file containing references to Quantum Computer Hardware Cybersecurity research papers is available at <a href="https://github.com/caslab-code/qc-hardware-cybersecurity-bibtex">https://github.com/caslab-code/qc-hardware-cybersecurity-bibtex</a>. The bibliography will be continuously updated.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</main>
+
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      QCCS 2027
+      <small class="d-block mb-3 text-body-secondary">Jakub Szefer &copy; 2026</small>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
